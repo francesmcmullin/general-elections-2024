@@ -1,0 +1,18 @@
+.nav.navbar-nav {
+  font-size: 1.75rem;
+}
+#searchForm {
+  margin-right: 6.25rem;
+}
+@media (max-width: 75rem) {
+  searchForm {
+    display: none;
+  }
+}
+.form-control {
+  width: 50rem;
+}
+
+img{
+  width: 40px;
+}

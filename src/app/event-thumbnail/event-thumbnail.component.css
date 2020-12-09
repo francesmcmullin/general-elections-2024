@@ -1,0 +1,30 @@
+.thumbnail {
+  min-height: 210px;
+}
+.pad-left {
+  margin-left: 8px;
+}
+.well div {
+  color: #bbb;
+}
+.event-image {
+  height: 200px;
+  width: 185px;
+  border-radius: 5px;
+  float: right;
+}
+
+.vote-image {
+  height: 30px;
+}
+
+.mini-scores1, .mini-scores2, .mini-scores3{
+  /* height: 50px; */
+  display: flex ;
+  /* padding-top: 0; */
+  /* padding-bottom: 0; */
+  /* width: max-content; */
+  /* border-radius: 5px; */
+}
+
+
