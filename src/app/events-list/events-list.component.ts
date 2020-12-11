@@ -9,13 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class EventsListComponent implements OnInit {
-  events:any[]
-
+  events: any[]
+  searchValue: string; //THIS
  
 
   constructor(private eventService: EventService) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
     this.events = this.eventService.getEvents()
   }
 

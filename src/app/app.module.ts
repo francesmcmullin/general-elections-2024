@@ -12,7 +12,9 @@ import { EventDetailsComponent } from './event-details/event-details.component';
 import { ScorecardComponent } from './scorecard/scorecard.component';
 import { ScoreKeyComponent } from './score-key/score-key.component';
 import { PartyPageComponent } from './party-page/party-page.component';
-import { FilterArrayPipe } from './filter.pipe';
+import { SearchfilterPipe } from './searchfilter.pipe';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 
 
 @NgModule({
@@ -25,11 +27,14 @@ import { FilterArrayPipe } from './filter.pipe';
     ScorecardComponent,
     ScoreKeyComponent,
     PartyPageComponent,
-    FilterArrayPipe
+    SearchfilterPipe
+   
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [EventService],
   bootstrap: [AppComponent]
