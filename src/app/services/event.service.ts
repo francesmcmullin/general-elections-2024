@@ -460,7 +460,7 @@ const EVENTS = [
   {
     name: 'Catherine Ardagh',
     imageUrl:
-      './assets/images/candidates/Catherine Ardagh_FF_Dublin South Central.jpg",
+      "./assets/images/candidates/Catherine Ardagh_FF_Dublin South Central.jpg",
     constituency: 'Dublin South Central',
     party: {
       partyName: 'Fianna Fail',
@@ -4283,7 +4283,7 @@ const EVENTS = [
   {
     name: 'Richard Bruton',
     imageUrl:
-      './assets/images/candidates/Richard Bruton_FG_Dublin Bay North.jpg",
+      "./assets/images/candidates/Richard Bruton_FG_Dublin Bay North.jpg",
     constituency: 'Dublin Bay North',
     party: {
       partyName: 'Fine Gael',
@@ -5901,7 +5901,7 @@ const EVENTS = [
   {
     name: 'Jerry Buttimer',
     imageUrl:
-      './assets/images/candidates/Jerry Buttimer_FG_Cork South Central.jpg",
+      "./assets/images/candidates/Jerry Buttimer_FG_Cork South Central.jpg",
     constituency: 'Cork South Central',
     party: {
       partyName: 'Fine Gael',
@@ -6196,7 +6196,7 @@ const EVENTS = [
   {
     name: 'Catherine Byrne',
     imageUrl:
-      './assets/images/candidates/Catherine Byrne_FG_Dublin South Central.jpg",
+      "./assets/images/candidates/Catherine Byrne_FG_Dublin South Central.jpg",
     constituency: 'Dublin South Central',
     party: {
       partyName: 'Fine Gael',
@@ -8255,7 +8255,7 @@ const EVENTS = [
   {
     name: 'Michael Carrigy',
     imageUrl:
-      './assets/images/candidates/Micheál Carrigy_FG_Longford-Westmeath.jpg",
+      "./assets/images/candidates/Micheál Carrigy_FG_Longford-Westmeath.jpg",
     constituency: 'Longford Westmeath',
     party: {
       partyName: 'Fine Gael',
@@ -8403,7 +8403,7 @@ const EVENTS = [
   {
     name: 'Jennifer Carroll MacNeill',
     imageUrl:
-      './assets/images/candidates/Jennifer Carroll MacNeill_FG_Dún Laoghaire.jpg",
+      "./assets/images/candidates/Jennifer Carroll MacNeill_FG_Dún Laoghaire.jpg",
     constituency: 'Dun Laoghaire',
     party: {
       partyName: 'Fine Gael',
@@ -10168,7 +10168,7 @@ const EVENTS = [
   {
     name: 'Lorraine Clifford-Lee',
     imageUrl:
-      './assets/images/candidates/Lorraine Clifford-Lee_FF_Dublin Fingal.jpg",
+      "./assets/images/candidates/Lorraine Clifford-Lee_FF_Dublin Fingal.jpg",
     constituency: 'Dublin Fingal',
     party: {
       partyName: 'Fianna Fail',
@@ -12080,7 +12080,7 @@ const EVENTS = [
   {
     name: 'Caroline Conroy',
     imageUrl:
-      './assets/images/candidates/Caroline Conroy_GP_Dublin North-West.png",
+      "./assets/images/candidates/Caroline Conroy_GP_Dublin North-West.png",
     constituency: 'Dublin North West',
     party: {
       partyName: 'Green Party',
@@ -12963,7 +12963,7 @@ const EVENTS = [
   {
     name: 'Marcella Corcoran Kennedy',
     imageUrl:
-      './assets/images/candidates/Marcella Corcoran Kennedy_FG_Laois-Offaly.jpeg",
+      "./assets/images/candidates/Marcella Corcoran Kennedy_FG_Laois-Offaly.jpeg",
     constituency: 'Laois Offaly',
     party: {
       partyName: 'Fine Gael',
@@ -13111,7 +13111,7 @@ const EVENTS = [
   {
     name: 'Nessa Cosgrove',
     imageUrl:
-      './assets/images/candidates/Nessa Cosgrove_Lab_Sligo - Leitrim.jpg",
+      "./assets/images/candidates/Nessa Cosgrove_Lab_Sligo - Leitrim.jpg",
     constituency: 'Sligo Leitrim',
     party: {
       partyName: 'Labour',
@@ -13406,7 +13406,7 @@ const EVENTS = [
   {
     name: 'Patrick Costello',
     imageUrl:
-      './assets/images/candidates/Patrick Costello_GP_Dublin South Central.jpg",
+      "./assets/images/candidates/Patrick Costello_GP_Dublin South Central.jpg",
     constituency: 'Dublin South Central',
     party: {
       partyName: 'Green Party',
@@ -13848,7 +13848,7 @@ const EVENTS = [
   {
     name: 'Simon Coveney',
     imageUrl:
-      './assets/images/candidates/Simon Coveney_FG_Cork South Central.jpg",
+      "./assets/images/candidates/Simon Coveney_FG_Cork South Central.jpg",
     constituency: 'Cork South Central',
     party: {
       partyName: 'Fine Gael',
@@ -20317,7 +20317,7 @@ const EVENTS = [
   {
     name: 'Francis Noel Duffy',
     imageUrl:
-      './assets/images/candidates/Francis Noel Duffy_GP_Dublin South-West.jpg",
+      "./assets/images/candidates/Francis Noel Duffy_GP_Dublin South-West.jpg",
     constituency: 'Dublin South West',
     party: {
       partyName: 'Green Party',
@@ -22964,7 +22964,7 @@ const EVENTS = [
   {
     name: 'Tony Fitzgerald',
     imageUrl:
-      './assets/images/candidates/Tony Fitzgerald_FF_Cork North Central.jpg",
+      "./assets/images/candidates/Tony Fitzgerald_FF_Cork North Central.jpg",
     constituency: 'Cork North Central',
     party: {
       partyName: 'Fianna Fail',
@@ -23259,7 +23259,7 @@ const EVENTS = [
   {
     name: 'Mary Fitzpatrick',
     imageUrl:
-      './assets/images/candidates/Mary Fitzpatrick_FF_Dublin Central.jpg",
+      "./assets/images/candidates/Mary Fitzpatrick_FF_Dublin Central.jpg",
     constituency: 'Dublin Central',
     party: {
       partyName: 'Fianna Fail',
@@ -23554,7 +23554,7 @@ const EVENTS = [
   {
     name: 'Joe Flaherty',
     imageUrl:
-      './assets/images/candidates/Joe Flaherty_FF_Longford-Westmeath.jpg",
+      "./assets/images/candidates/Joe Flaherty_FF_Longford-Westmeath.jpg",
     constituency: 'Longford Westmeath',
     party: {
       partyName: 'Fianna Fail',
@@ -25172,7 +25172,7 @@ const EVENTS = [
   {
     name: 'Blaithin Gallagher',
     imageUrl:
-      './assets/images/candidates/Bláithín Gallagher_GP_Sligo Leitrim.png",
+      "./assets/images/candidates/Bláithín Gallagher_GP_Sligo Leitrim.png",
     constituency: 'Sligo Leitrim',
     party: {
       partyName: 'Green Party',
@@ -25320,7 +25320,7 @@ const EVENTS = [
   {
     name: 'Pat The Cope Gallagher',
     imageUrl:
-      './assets/images/candidates/Pat _The Cope_ Gallagher_FF_Donegal.jpg",
+      "./assets/images/candidates/Pat _The Cope_ Gallagher_FF_Donegal.jpg",
     constituency: 'Donegal',
     party: {
       partyName: 'Fianna Fail',
@@ -25468,7 +25468,7 @@ const EVENTS = [
   {
     name: 'Robbie Gallagher',
     imageUrl:
-      './assets/images/candidates/Robbie Gallagher_FF_Cavan–Monaghan.jpg",
+      "./assets/images/candidates/Robbie Gallagher_FF_Cavan–Monaghan.jpg",
     constituency: 'Cavan Monaghan',
     party: {
       partyName: 'Fianna Fail',
@@ -26351,7 +26351,7 @@ const EVENTS = [
   {
     name: 'Deirdre Geraghty Smith',
     imageUrl:
-      './assets/images/candidates/Deirdre Geraghty-Smith_FF_Meath East.jpg",
+      "./assets/images/candidates/Deirdre Geraghty-Smith_FF_Meath East.jpg",
     constituency: 'Meath East',
     party: {
       partyName: 'Fianna Fail',
@@ -30468,7 +30468,7 @@ const EVENTS = [
   {
     name: 'Louise Heavin',
     imageUrl:
-      './assets/images/candidates/Louise Heavin_GP_Longford Westmeath.jpg",
+      "./assets/images/candidates/Louise Heavin_GP_Longford Westmeath.jpg",
     constituency: 'Longford Westmeath',
     party: {
       partyName: 'Green Party',
@@ -31792,7 +31792,7 @@ const EVENTS = [
   {
     name: 'Heather Humphreys',
     imageUrl:
-      './assets/images/candidates/Heather Humphreys_FG_Cavan-Monaghan.jpg",
+      "./assets/images/candidates/Heather Humphreys_FG_Cavan-Monaghan.jpg",
     constituency: 'Cavan Monaghan',
     party: {
       partyName: 'Fine Gael',
@@ -31940,7 +31940,7 @@ const EVENTS = [
   {
     name: 'Kevin Humphreys',
     imageUrl:
-      './assets/images/candidates/Kevin Humphreys_Lab_Dublin Bay South.jpg",
+      "./assets/images/candidates/Kevin Humphreys_Lab_Dublin Bay South.jpg",
     constituency: 'Dublin Bay South',
     party: {
       partyName: 'Labour',
@@ -37527,7 +37527,7 @@ const EVENTS = [
   {
     name: 'David Lloyd',
     imageUrl:
-      './assets/images/candidates/David_Lloyd_DirectDemocracyIreland.jpg",
+      "./assets/images/candidates/David_Lloyd_DirectDemocracyIreland.jpg",
     constituency: 'Wexford',
     party: {
       partyName: 'Direct Democracy Ireland',
@@ -38998,7 +38998,7 @@ const EVENTS = [
   {
     name: 'Josepha Madigan',
     imageUrl:
-      './assets/images/candidates/Josepha Madigan_FG_Dublin Rathdown.jpg",
+      "./assets/images/candidates/Josepha Madigan_FG_Dublin Rathdown.jpg",
     constituency: 'Dublin Rathdown',
     party: {
       partyName: 'Fine Gael',
@@ -39734,7 +39734,7 @@ const EVENTS = [
   {
     name: 'Alan Mangan',
     imageUrl:
-      './assets/images/candidates/Alan Mangan_Lab_Longford - Westmeath.jpg",
+      "./assets/images/candidates/Alan Mangan_Lab_Longford - Westmeath.jpg",
     constituency: 'Longford Westmeath',
     party: {
       partyName: 'Labour',
@@ -40029,7 +40029,7 @@ const EVENTS = [
   {
     name: 'Catherine Martin',
     imageUrl:
-      './assets/images/candidates/Catherine Martin_GP_Dublin Rathdown.jpg",
+      "./assets/images/candidates/Catherine Martin_GP_Dublin Rathdown.jpg",
     constituency: 'Dublin Rathdown',
     party: {
       partyName: 'Green Party',
@@ -40177,7 +40177,7 @@ const EVENTS = [
   {
     name: 'Micheal Martin',
     imageUrl:
-      './assets/images/candidates/Micheál Martin_FF_Cork South Central.jpg",
+      "./assets/images/candidates/Micheál Martin_FF_Cork South Central.jpg",
     constituency: 'Cork South Central',
     party: {
       partyName: 'Fianna Fail',
@@ -40325,7 +40325,7 @@ const EVENTS = [
   {
     name: 'Vincent P Martin',
     imageUrl:
-      './assets/images/candidates/Vincent P. Martin_GP_Kildare North.png",
+      "./assets/images/candidates/Vincent P. Martin_GP_Kildare North.png",
     constituency: 'Kildare North',
     party: {
       partyName: 'Green Party',
@@ -40767,7 +40767,7 @@ const EVENTS = [
   {
     name: 'Paul McAuliffe',
     imageUrl:
-      './assets/images/candidates/Paul McAuliffe_FF_Dublin North West.jpg",
+      "./assets/images/candidates/Paul McAuliffe_FF_Dublin North West.jpg",
     constituency: 'Dublin North West',
     party: {
       partyName: 'Fianna Fail',
@@ -41209,7 +41209,7 @@ const EVENTS = [
   {
     name: 'Lettie McCarthy',
     imageUrl:
-      './assets/images/candidates/Lettie McCarthy_Lab_Dublin Rathdown.jpg",
+      "./assets/images/candidates/Lettie McCarthy_Lab_Dublin Rathdown.jpg",
     constituency: 'Dublin Rathdown',
     party: {
       partyName: 'Labour',
@@ -42680,7 +42680,7 @@ const EVENTS = [
   {
     name: 'Gabrielle McFadden',
     imageUrl:
-      './assets/images/candidates/Gab McFadden_FG_Longford-Westmeath.jpg",
+      "./assets/images/candidates/Gab McFadden_FG_Longford-Westmeath.jpg",
     constituency: 'Longford Westmeath',
     party: {
       partyName: 'Fine Gael',
@@ -43122,7 +43122,7 @@ const EVENTS = [
   {
     name: 'Michael McGrath',
     imageUrl:
-      './assets/images/candidates/Michael McGrath_FF_Cork South Central.jpg",
+      "./assets/images/candidates/Michael McGrath_FF_Cork South Central.jpg",
     constituency: 'Cork South Central',
     party: {
       partyName: 'Fianna Fail',
@@ -43270,7 +43270,7 @@ const EVENTS = [
   {
     name: 'John McGuinness',
     imageUrl:
-      './assets/images/candidates/John McGuinness_FF_Carlow–Kilkenny.jpg",
+      "./assets/images/candidates/John McGuinness_FF_Carlow–Kilkenny.jpg",
     constituency: 'Carlow Kilkenny',
     party: {
       partyName: 'Fianna Fail',
@@ -44888,7 +44888,7 @@ const EVENTS = [
   {
     name: "Mary Mitchell O'Connor",
     imageUrl:
-      './assets/images/candidates/Mary Mitchell O_Connor_FG_Dún Laoghaire.jpg",
+      "./assets/images/candidates/Mary Mitchell O_Connor_FG_Dún Laoghaire.jpg",
     constituency: 'Dun Laoghaire',
     party: {
       partyName: 'Fine Gael',
@@ -45330,7 +45330,7 @@ const EVENTS = [
   {
     name: 'Andrew Montague',
     imageUrl:
-      './assets/images/candidates/Andrew Montague_Lab_Dublin North West.jpg",
+      "./assets/images/candidates/Andrew Montague_Lab_Dublin North West.jpg",
     constituency: 'Dublin North West',
     party: {
       partyName: 'Labour',
@@ -45919,7 +45919,7 @@ const EVENTS = [
   {
     name: 'Oliver Moran',
     imageUrl:
-      './assets/images/candidates/Oliver Moran_GP_Cork North-Central.jpg",
+      "./assets/images/candidates/Oliver Moran_GP_Cork North-Central.jpg",
     constituency: 'Cork North Central',
     party: {
       partyName: 'Green Party',
@@ -46214,7 +46214,7 @@ const EVENTS = [
   {
     name: 'Aindrias Moynihan',
     imageUrl:
-      './assets/images/candidates/Aindrias Moynihan_FF_Cork North West.jpg",
+      "./assets/images/candidates/Aindrias Moynihan_FF_Cork North West.jpg",
     constituency: 'Cork North West',
     party: {
       partyName: 'Fianna Fail',
@@ -46362,7 +46362,7 @@ const EVENTS = [
   {
     name: 'Michael Moynihan',
     imageUrl:
-      './assets/images/candidates/Michael Moynihan_FF_Cork North West.jpg",
+      "./assets/images/candidates/Michael Moynihan_FF_Cork North West.jpg",
     constituency: 'Cork North West',
     party: {
       partyName: 'Fianna Fail',
@@ -46510,7 +46510,7 @@ const EVENTS = [
   {
     name: 'Rebecca Moynihan',
     imageUrl:
-      './assets/images/candidates/Rebecca Moynihan_Lab_Dublin South Central.jpg",
+      "./assets/images/candidates/Rebecca Moynihan_Lab_Dublin South Central.jpg",
     constituency: 'Dublin South Central',
     party: {
       partyName: 'Labour',
@@ -47687,7 +47687,7 @@ const EVENTS = [
   {
     name: "Jennifer Murnane O'Connor",
     imageUrl:
-      './assets/images/candidates/Jennifer Murnane O_Connor_FF_Carlow–Kilkenny.jpg",
+      "./assets/images/candidates/Jennifer Murnane O_Connor_FF_Carlow–Kilkenny.jpg",
     constituency: 'Carlow Kilkenny',
     party: {
       partyName: 'Fianna Fail',
@@ -47835,7 +47835,7 @@ const EVENTS = [
   {
     name: "Margaret Murphy O'Mahony",
     imageUrl:
-      './assets/images/candidates/Margaret Murphy O_ Mahony_FF_Cork South West.jpg",
+      "./assets/images/candidates/Margaret Murphy O_ Mahony_FF_Cork South West.jpg",
     constituency: 'Cork South West',
     party: {
       partyName: 'Fianna Fail',
@@ -50041,7 +50041,7 @@ const EVENTS = [
   {
     name: 'Hildegarde Naughton',
     imageUrl:
-      './assets/images/candidates/Hildegarde Naughton_FG_Galway West.jpg",
+      "./assets/images/candidates/Hildegarde Naughton_FG_Galway West.jpg",
     constituency: 'Galway West',
     party: {
       partyName: 'Fine Gael',
@@ -50483,7 +50483,7 @@ const EVENTS = [
   {
     name: 'Cristin Ni Mhaoldhomhnaigh',
     imageUrl:
-      './assets/images/candidates/Cristin_NiMhaoldhomnaigh_NationalParty.jpeg",
+      "./assets/images/candidates/Cristin_NiMhaoldhomnaigh_NationalParty.jpeg",
     constituency: 'Limerick County',
     party: {
       partyName: 'National Party',
@@ -51366,7 +51366,7 @@ const EVENTS = [
   {
     name: 'Catherine Noone',
     imageUrl:
-      './assets/images/candidates/Catherine Noone_FG_Dublin Bay North.jpg",
+      "./assets/images/candidates/Catherine Noone_FG_Dublin Bay North.jpg",
     constituency: 'Dublin Bay North',
     party: {
       partyName: 'Fine Gael',
@@ -53425,7 +53425,7 @@ const EVENTS = [
   {
     name: 'Aodhan O Riordain',
     imageUrl:
-      './assets/images/candidates/Aodhán Ó Ríordáin_Lab_Dublin Bay North.jpg",
+      "./assets/images/candidates/Aodhán Ó Ríordáin_Lab_Dublin Bay North.jpg",
     constituency: 'Dublin Bay North',
     party: {
       partyName: 'Labour',
@@ -55337,7 +55337,7 @@ const EVENTS = [
   {
     name: "Jim O'Callaghan",
     imageUrl:
-      './assets/images/candidates/Jim O_Callaghan_FF_Dublin Bay South.jpg",
+      "./assets/images/candidates/Jim O_Callaghan_FF_Dublin Bay South.jpg",
     constituency: 'Dublin Bay South',
     party: {
       partyName: 'Fianna Fail',
@@ -55632,7 +55632,7 @@ const EVENTS = [
   {
     name: "Kate O'Connell",
     imageUrl:
-      './assets/images/candidates/Kate O_Connell_FG_Dublin Bay South.jpg",
+      "./assets/images/candidates/Kate O_Connell_FG_Dublin Bay South.jpg",
     constituency: 'Dublin Bay South',
     party: {
       partyName: 'Fine Gael',
@@ -55780,7 +55780,7 @@ const EVENTS = [
   {
     name: "Charlie O'Connor",
     imageUrl:
-      './assets/images/candidates/Charlie O_Connor_FF_Dublin South West.jpg",
+      "./assets/images/candidates/Charlie O_Connor_FF_Dublin South West.jpg",
     constituency: 'Dublin South West',
     party: {
       partyName: 'Fianna Fail',
@@ -57251,7 +57251,7 @@ const EVENTS = [
   {
     name: "Julie O'Donoghue",
     imageUrl:
-      './assets/images/candidates/Julie O_Donoghue_GP_Roscommon Galway.jpg",
+      "./assets/images/candidates/Julie O_Donoghue_GP_Roscommon Galway.jpg",
     constituency: 'Roscommon Galway',
     party: {
       partyName: 'Green Party',
@@ -57693,7 +57693,7 @@ const EVENTS = [
   {
     name: "Deirdre O'Donovan",
     imageUrl:
-      './assets/images/candidates/Deirdre O_Donovan_FF_Dublin South West.jpg",
+      "./assets/images/candidates/Deirdre O_Donovan_FF_Dublin South West.jpg",
     constituency: 'Dublin South West',
     party: {
       partyName: 'Fianna Fail',
@@ -57841,7 +57841,7 @@ const EVENTS = [
   {
     name: "Patrick O'Donovan",
     imageUrl:
-      './assets/images/candidates/Patrick O_Donovan_FG_Limerick County.jpg",
+      "./assets/images/candidates/Patrick O_Donovan_FG_Limerick County.jpg",
     constituency: 'Limerick County',
     party: {
       partyName: 'Fine Gael',
@@ -61811,7 +61811,7 @@ const EVENTS = [
   {
     name: "Ellen O'Malley Dunlop",
     imageUrl:
-      './assets/images/candidates/Ellen O_Malley Dunlop_FG_Dublin South West.jpg",
+      "./assets/images/candidates/Ellen O_Malley Dunlop_FG_Dublin South West.jpg",
     constituency: 'Dublin South West',
     party: {
       partyName: 'Fine Gael',
@@ -61959,7 +61959,7 @@ const EVENTS = [
   {
     name: "Lorraine O'Neill",
     imageUrl:
-      './assets/images/candidates/Lorraine O_Neill_FG_Cork North Central.jpg",
+      "./assets/images/candidates/Lorraine O_Neill_FG_Cork North Central.jpg",
     constituency: 'Cork North Central',
     party: {
       partyName: 'Fine Gael',
@@ -62254,7 +62254,7 @@ const EVENTS = [
   {
     name: "Patrick O'Neill",
     imageUrl:
-      './assets/images/candidates/Patrick O_Neill_FG_Carlow-Kilkenny.jpg",
+      "./assets/images/candidates/Patrick O_Neill_FG_Carlow-Kilkenny.jpg",
     constituency: 'Carlow Kilkenny',
     party: {
       partyName: 'Fine Gael',
@@ -63872,7 +63872,7 @@ const EVENTS = [
   {
     name: "John Paul O'Shea",
     imageUrl:
-      './assets/images/candidates/John Paul O_Shea_FG_Cork North West.jpg",
+      "./assets/images/candidates/John Paul O_Shea_FG_Cork North West.jpg",
     constituency: 'Cork North West',
     party: {
       partyName: 'Fine Gael',
@@ -64167,7 +64167,7 @@ const EVENTS = [
   {
     name: "Christopher O'Sullivan",
     imageUrl:
-      './assets/images/candidates/Christopher O_Sullivan_FF_Cork South West.jpg",
+      "./assets/images/candidates/Christopher O_Sullivan_FF_Cork South West.jpg",
     constituency: 'Cork South West',
     party: {
       partyName: 'Fianna Fail',
@@ -64462,7 +64462,7 @@ const EVENTS = [
   {
     name: "Padraig O'Sullivan",
     imageUrl:
-      './assets/images/candidates/Pádraig O_Sullivan_FF_Cork North Central.jpg",
+      "./assets/images/candidates/Pádraig O_Sullivan_FF_Cork North Central.jpg",
     constituency: 'Cork North Central',
     party: {
       partyName: 'Fianna Fail',
@@ -64904,7 +64904,7 @@ const EVENTS = [
   {
     name: 'John Paul Phelan',
     imageUrl:
-      './assets/images/candidates/John Paul Phelan_FG_Carlow-Kilkenny.jpg",
+      "./assets/images/candidates/John Paul Phelan_FG_Carlow-Kilkenny.jpg",
     constituency: 'Carlow Kilkenny',
     party: {
       partyName: 'Fine Gael',
@@ -70638,7 +70638,7 @@ const EVENTS = [
   {
     name: 'Ken Smollen',
     imageUrl:
-      './assets/images/candidates/Ken_Smollen_Irish Democratic Party.jpg",
+      "./assets/images/candidates/Ken_Smollen_Irish Democratic Party.jpg",
     constituency: 'Laois Offaly',
     party: {
       partyName: 'Irish Democratic Party',
