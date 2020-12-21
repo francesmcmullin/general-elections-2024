@@ -4,6 +4,7 @@ img{
 
 input {
     width: 35rem;
+    margin-bottom: 8px;
 }
 
 span{
@@ -13,3 +14,11 @@ span{
 .title-text {
     font-size: 70px;
 }
+
+.scorekey {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+  .key-image {
+    height: 25px;
+  }

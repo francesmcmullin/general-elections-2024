@@ -7,7 +7,16 @@
   <span>Search your Constituency/Candidate </span>
   <input type="text" [(ngModel)]="searchValue" placeholder="Type a  Constituency,  Name,  Party  or  Score"> <!--added ngModel-->
   <br>
-  <br>
+ 
+  <!-- <div class="scorekey">
+    <span><img src="./assets/images/positive.jpg" class="key-image" /> = Voted in a
+    climate positive way</span>
+    <span><img src="./assets/images/not_td.jpg" class="key-image" /> = Was not a TD at
+    the time so could not vote</span><br />
+    <span><img src="./assets/images/negative.jpg" class="key-image" /> = Voted in a
+    climate negative way </span>
+    <span><img src="./assets/images/did_not_vote.jpg" class="key-image" /> = Did not vote</span>
+  </div> -->
 
 <div class="row">
   <div class="col-md-5" *ngFor="let event of events | searchfilter:searchValue"> <!--added pipe filter-->
