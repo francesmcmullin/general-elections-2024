@@ -5,10 +5,10 @@ import { EventDetailsComponent } from './event-details/event-details.component';
 import { EventsListComponent } from './events-list/events-list.component';
 
 const routes: Routes = [
-  { path: 'All-Candidates', component: EventsListComponent },
+  { path: 'All-TDs', component: EventsListComponent },
   { path: 'events/:name', component: EventDetailsComponent },
   { path: 'app-party-page', component: PartyPageComponent },
-  { path: '', redirectTo: '/All-Candidates', pathMatch:'full'}
+  { path: '', redirectTo: '/All-TDs', pathMatch:'full'}
 ]
 
 @NgModule({

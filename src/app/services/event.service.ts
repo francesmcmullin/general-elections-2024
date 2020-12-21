@@ -9285,7 +9285,7 @@ const EVENTS = [
   },
   {
     name: 'Marian Harkin',
-    imageUrl: "/assets/images/candidates/Maian_Harkin_Ind.jpg",
+    imageUrl: "/assets/images/candidates/Marian_Harkin_Ind.jpg",
     constituency: 'Sligo Leitrim',
     party: {
       partyName: 'Independent',
