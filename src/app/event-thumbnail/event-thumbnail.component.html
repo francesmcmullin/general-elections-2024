@@ -2,12 +2,13 @@
     <img [src]="event?.imageUrl" [alt]="event?.name" class="event-image">
     <!-- <app-score-key></app-score-key> -->
     <h2>{{event?.name}}</h2>
-    <div>Constituency: {{event?.constituency}}</div>
-    <div *ngIf="event?.party">Party: {{event?.party.partyName}}</div>
+    <div>{{event?.constituency}}</div>
+    <div *ngIf="event?.party">{{event?.party.partyName}}</div>
     <div *ngIf="event?.party">Party Score: {{event?.party.partyScore}}</div>
     
     <h2>Score: {{event?.score}}</h2>
-    
+
+    <br>    
     
     <div class="mini-scores1">
       <span><a href={{event?.votes.vote1.link}}>

@@ -9,16 +9,24 @@
   color: #bbb;
 }
 .event-image {
-  height: 200px;
-  width: 185px;
+  height: 180px;
+  width: 160px;
   /* height: 150px;
   width: 150px; */
   border-radius: 5px;
   float: right;
+  /* position: relative;
+  left: 18px; */
+  /* position: relative 200px right; */
+  
+}
+
+h2{
+  font-size: 20px;
 }
 
 .vote-image {
-  height: 30px;
+  height: 25px;
 }
 
 .mini-scores1, .mini-scores2, .mini-scores3{
@@ -28,6 +36,7 @@
   /* padding-bottom: 0; */
   /* width: max-content; */
   /* border-radius: 5px; */
+  
 }
 
 
