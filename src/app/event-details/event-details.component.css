@@ -9,12 +9,40 @@
 }
 
 app-scorecard {
-  position: relative;
+  /* position: relative;
   bottom: 250px;
-  right: 100px;
+  right: 100px; */
+  /* display: inline-flexbox; */
 }
 
 .hideText{
  display: none;
   /* color: red; */
 }
+
+/* @media (min-width: 1000px) {
+  app-scorecard {
+    position: relative;
+  bottom: 250px;
+  right: 100px;
+  }
+} */
+
+/* start of desktop styles */
+
+
+  
+  @media screen and (min-width: 767px) {
+  /* start of medium tablet styles */
+    app-scorecard {
+      position: relative;
+      bottom: 250px;
+      right: 100px;
+  }
+  
+  }
+  
+  /* @media screen and (max-width: 479px) {
+  start of phone styles
+  
+  } */
