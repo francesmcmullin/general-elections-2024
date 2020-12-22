@@ -9,7 +9,11 @@ import { Component } from '@angular/core';
   `,
   // styleUrls: ['./app.component.css']
   styles: [`
-    body{padding-left: 20px;}`
+    body{
+      padding-left: 20px;
+      padding-top: 15px;
+    }`
+    
 ]
 })
 export class AppComponent {

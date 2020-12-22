@@ -4,7 +4,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
   selector: 'app-score-key',
   templateUrl: './score-key.component.html',
   styleUrls: ['./score-key.component.css'],
-  // encapsulation: ViewEncapsulation.None
+  
   
 })
 export class ScoreKeyComponent implements OnInit {

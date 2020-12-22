@@ -1,4 +1,22 @@
-<div class="navbar navbar-default">
+<ul class="nav nav-tabs">
+  <a class="navbar-brand" href="https://notherenotanywhere.com/">
+    <img src="./assets/images/NHNA2.png" class="d-inline-block align-top" alt="">
+  </a>
+ 
+  <li class="nav-item">
+    <a class="nav-link" [routerLink] = "['/All-TDs']">All TDs</a>
+  </li>
+
+  <li class="nav-item">
+    <a class="nav-link active" [routerLink] = "['/app-party-page']">Party Scores</a>
+  </li>
+</ul>
+
+
+
+
+
+<!-- <div class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
         <a href="https://notherenotanywhere.com/"><img src="./assets/images/NHNA2.png"></a>
@@ -12,35 +30,17 @@
           <li>
             <a [routerLink] = "['/app-party-page']">Party Scores</a>
           </li>
-          <!-- <li><a href="">Create Event</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-              Events
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li >
-                <a href="">Angular Connect</a>
-              </li>
-            </ul>
-          </li> -->
         </ul>
-        <!-- <div class="navbar-header navbar-right">
-          <ul class="nav navbar-nav">
-            <li>
-              <a>Welcome Brian</a>
-            </li>
-          </ul>
-        </div> -->
-        <!-- <form id="searchForm"  class="navbar-form navbar-right"  >
+        
+        <form id="searchForm"  class="navbar-form navbar-right"  >
           <div class="form-group">
             <input type="text" class="form-control" [(ngModel)]="searchValue" placeholder="Search  by  Constituency,  Name,  Party  or  Score">
           </div>
           <button class="btn btn-default" >
             Search
           </button>
-        </form> -->
+        </form>
 
       </div>
     </div>
-  </div>
+  </div> -->
