@@ -1,6 +1,6 @@
 .container {
-  padding-left: 80px;
-  padding-right: 20px;
+  padding-left: 5px;
+  padding-right: 2px;
 }
 
 .event-image {
@@ -8,12 +8,12 @@
   border-radius: 5px;
 }
 
-app-scorecard {
+/* app-scorecard { */
   /* position: relative;
   bottom: 250px;
   right: 100px; */
   /* display: inline-flexbox; */
-}
+/* } */
 
 .hideText{
  display: none;
@@ -32,13 +32,18 @@ app-scorecard {
 
 
   
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 765px) {
   /* start of medium tablet styles */
     app-scorecard {
       position: relative;
       bottom: 250px;
       right: 100px;
-  }
+    }
+
+    .container {
+      padding-left: 80px;
+      padding-right: 20px;
+    }
   
   }
   
