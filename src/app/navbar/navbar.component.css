@@ -16,3 +16,14 @@
 img{
   width: 40px;
 }
+
+span a{
+  color: aliceblue;
+  font-size: 25px;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+span:hover{
+  background-color: rgb(72, 85, 99);
+}

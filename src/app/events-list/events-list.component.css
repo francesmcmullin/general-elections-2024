@@ -22,3 +22,7 @@ span{
   .key-image {
     height: 25px;
   }
+
+.main-list {
+    margin-right: 15px;
+}
