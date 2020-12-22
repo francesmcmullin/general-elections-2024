@@ -1,13 +1,13 @@
 <div [routerLink] = "['/events', event.name]" class="well hoverwell thumbnail">
     <img [src]="event?.imageUrl" [alt]="event?.name" class="event-image">
-    <!-- <app-score-key></app-score-key> -->
+    
     <h2>{{event?.name}}</h2>
     <div>{{event?.constituency}}</div>
     <div *ngIf="event?.party">{{event?.party.partyName}}</div>
     <div *ngIf="event?.party">Party Score: {{event?.party.partyScore}}</div>
     
     <h2>Score: {{event?.score}}</h2>
-
+  
     <br>    
     
     <div class="mini-scores1">
@@ -42,6 +42,6 @@
       <span><a href="{{event?.votes.vote20.link}}"><img [src]="event?.votes.vote20.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote21.link}}"><img [src]="event?.votes.vote21.result" class="vote-image"></a></span>
     </div>  
-    
+    <!-- <span><app-score-key></app-score-key></span>     -->
     
   </div>

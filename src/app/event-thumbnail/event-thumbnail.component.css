@@ -1,5 +1,5 @@
 .thumbnail {
-  min-height: 200px;
+  min-height: 334px;
 
 }
 .pad-left {
@@ -22,12 +22,28 @@
 }
 
 h2{
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .vote-image {
   height: 25px;
 }
+
+
+app-score-key{
+  font-size: 12px; 
+}
+
+app-score-key img{
+  width: 12px; 
+}
+
+:host ::ng-deep .key-image{
+  /* width: px; */
+  height: 18px;
+
+}
+
 
 .mini-scores1, .mini-scores2, .mini-scores3{
   /* height: 50px; */
@@ -38,5 +54,3 @@ h2{
   /* border-radius: 5px; */
   
 }
-
-
