@@ -20,13 +20,17 @@ span a{
   text-decoration: none;
 }
 
-span:hover{
-  background-color: rgb(72, 85, 99);
-}
-
 ul.nav.nav-tabs {
   margin-bottom: 0;
   padding-bottom: 0;
   display: flex;
   font-size: 22px;
 }
+
+section{
+  background-color: rgba(72, 85, 99, 0.800);
+}
+/* 
+a:hover{
+  color:   rgb(139, 238, 241);;
+} */
