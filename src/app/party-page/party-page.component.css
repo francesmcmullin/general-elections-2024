@@ -1,4 +1,30 @@
+img {
+    width:100%;
+    padding-right: 5%;
+  } 
+
+/* @media (min-width: 1000px) {
+  app-scorecard {
+    position: relative;
+  bottom: 250px;
+  right: 100px;
+  }
+} */
+
+/* start of desktop styles */
+
+
+  
+@media screen and (min-width: 765px) {
+    /* start of medium tablet styles */
+      
 img{
     width: 85%;
     padding-left: 10%;
+}  
 }
+    
+    /* @media screen and (max-width: 479px) {
+    start of phone styles
+    
+    } */
