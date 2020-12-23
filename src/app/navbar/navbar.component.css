@@ -13,10 +13,6 @@
   width: 50rem;
 }
 
-img{
-  width: 60px;
-}
-
 span a{
   color: aliceblue;
   font-size: 25px;
@@ -26,4 +22,11 @@ span a{
 
 span:hover{
   background-color: rgb(72, 85, 99);
+}
+
+ul.nav.nav-tabs {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  display: flex;
+  font-size: 22px;
 }
