@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
   styles: [`
     body{
       padding-left: 20px;
-      padding-top: 15px;
+      padding-top: 0px;
     }`
     
 ]

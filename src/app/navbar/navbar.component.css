@@ -24,13 +24,9 @@ ul.nav.nav-tabs {
   margin-bottom: 0;
   padding-bottom: 0;
   display: flex;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 section{
   background-color: rgba(72, 85, 99, 0.800);
 }
-/* 
-a:hover{
-  color:   rgb(139, 238, 241);;
-} */
