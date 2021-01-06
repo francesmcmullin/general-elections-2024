@@ -14,6 +14,7 @@ import { ScoreKeyComponent } from './score-key/score-key.component';
 import { PartyPageComponent } from './party-page/party-page.component';
 import { SearchfilterPipe } from './searchfilter.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ComparisonpageComponent } from './comparisonpage/comparisonpage.component';
 
 
 
@@ -27,7 +28,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     ScorecardComponent,
     ScoreKeyComponent,
     PartyPageComponent,
-    SearchfilterPipe
+    SearchfilterPipe,
+    ComparisonpageComponent
    
   ],
   imports: [

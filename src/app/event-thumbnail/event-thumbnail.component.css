@@ -54,3 +54,11 @@ app-score-key img{
   /* border-radius: 5px; */
   
 }
+
+.checkbox {
+  /* position: float; */
+  /* z-index: 1000; */
+  /* right: 25px; */
+  float: right;
+  display: flex;
+}

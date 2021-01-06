@@ -1,4 +1,5 @@
-<div [routerLink] = "['/events', event.name]" class="well hoverwell thumbnail">
+<div class="well hoverwell thumbnail">
+  <div class="clickable" [routerLink] = "['/events', event.name]">
     <img [src]="event?.imageUrl" [alt]="event?.name" class="event-image">
     
     <h2>{{event?.name}}</h2>
@@ -42,6 +43,13 @@
       <span><a href="{{event?.votes.vote20.link}}"><img [src]="event?.votes.vote20.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote21.link}}"><img [src]="event?.votes.vote21.result" class="vote-image"></a></span>
     </div>  
+  </div>
+    <span class="checkbox">
+      <label>Add to Comparison</label>
+      <!-- <input type="checkbox" onchange="compareVal()"> -->
+      <input type="checkbox" (change)="compareVal($event)" [checked]="event.enable"/>
+      <!-- <button onclick="compareValue()">Click</button> -->
+  </span>
     <!-- <span><app-score-key></app-score-key></span>     -->
     
   </div>
