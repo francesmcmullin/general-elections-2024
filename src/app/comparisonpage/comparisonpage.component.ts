@@ -8,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComparisonpageComponent implements OnInit {
   events: any[]
+  compareEvents: any[]
 
   constructor(private eventService: EventService) { }
 
   ngOnInit() {
     this.events = this.eventService.getEvents()
+    this.compareEvents = this.events.filter(event => event.comparison == true);
+
+    // let myItems = myArray.filter(item => item.name === "name");
   }
 }
