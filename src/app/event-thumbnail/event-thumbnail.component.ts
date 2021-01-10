@@ -15,16 +15,12 @@ export class EventThumbnailComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    // if(this.event.comparison=true){
-    //   this.checkbox = checked
+    // if(this.event.comparison==true){
+    //   this.checkbox === true;
     // }
+    
   }
   
-  compareValue(){
-    // alert("Clicked");
-    console.log("Checked!");
-  }
-
 //   compareVal(){
 //     if(this.checkbox=true){
 //       alert("Checked!");
@@ -40,17 +36,21 @@ export class EventThumbnailComponent implements OnInit {
 
 compareVal(e) {
   if(e.target.checked){
-    // alert("Checked!");
-    console.log("Checked!");
     this.event.comparison=true;
+    // this.event.name="Ticked";
+    // this.checkbox.valueOf() == true;
   }
   else{
-      // alert("Unchecked!");
-      console.log("UnChecked!");
       this.event.comparison=false;
+      // this.event.name="Unticked";
+      // this.checkbox.valueOf() == false;
     }
-  }
-
 }
 
-  
+
+// unTick(compareEvent: any) {
+  // this.compareEvents.splice(index,1);
+  // const index = this.compareEvents.indexOf(compareEvent);
+  // this.compareEvents.splice(index, 1);
+// }
+}  

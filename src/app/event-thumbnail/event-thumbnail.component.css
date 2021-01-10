@@ -1,5 +1,9 @@
 .thumbnail {
   min-height: 334px;
+  padding-left: 12px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 12px;
 
 }
 .pad-left {
@@ -7,58 +11,131 @@
 }
 .well div {
   color: #bbb;
+  
 }
 .event-image {
   height: 180px;
   width: 160px;
-  /* height: 150px;
-  width: 150px; */
   border-radius: 5px;
   float: right;
-  /* position: relative;
-  left: 18px; */
-  /* position: relative 200px right; */
   
 }
 
 h2{
   font-size: 22px;
+  color: white;
 }
 
 .vote-image {
   height: 25px;
 }
 
-
-app-score-key{
+app-score-key img{
+  width: 12px; 
   font-size: 12px; 
 }
 
-app-score-key img{
-  width: 12px; 
-}
-
 :host ::ng-deep .key-image{
-  /* width: px; */
   height: 18px;
 
 }
 
 
 .mini-scores1, .mini-scores2, .mini-scores3{
-  /* height: 50px; */
-  display: flex ;
-  /* padding-top: 0; */
-  /* padding-bottom: 0; */
-  /* width: max-content; */
-  /* border-radius: 5px; */
+  display: inline-flex ;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  font-size: 0;
+  
+}
+
+.compBox {
+  /* position: float; */
+  /* z-index: 1000; */
+  /* right: 25px; */
+  position: absolute;
+  vertical-align: middle;
+  bottom: 95px;
+  right: 60px;
+  
+  display: inline-flexbox;
+  float: top;
+  flex-direction: column;
   
 }
 
 .checkbox {
-  /* position: float; */
-  /* z-index: 1000; */
-  /* right: 25px; */
-  float: right;
-  display: flex;
+  transform: scale(2.5);
+  position: absolute;
+  right: 40px;
 }
+
+label{
+  font-size: 16px;
+  text-align: center;
+  line-height: 15px;
+  padding-bottom: 10px;
+  
+}
+
+.mini-scorecards {
+  /* display: inline; */
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 200px;
+}
+
+@media screen and (max-width: 764px) {
+   
+  .compBox {   
+    bottom: 80px;
+  }
+}  
+
+@media screen and (max-width: 376px) {
+      
+  .compBox {
+    right: 45px;
+    bottom: 80px;
+  }
+
+  .checkbox {
+    transform: scale(1.8);
+  }
+}    
+
+@media screen and (max-width: 361px) {
+      
+  .compBox {
+    right: 38px;
+    bottom: 80px;
+  }
+
+  .checkbox {
+    transform: scale(2);
+    /* position: absolute; */
+    right: 37px;
+    top: 35px;
+  }
+}  
+
+@media screen and (max-width: 329px) {
+      
+  .compBox {
+    right: 22px;
+    bottom: 40px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  .checkbox {
+    transform: scale(2);
+    /* position: absolute; */
+    right: 26px;
+    top: 35px;
+  }
+}  

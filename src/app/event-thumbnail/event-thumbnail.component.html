@@ -10,7 +10,7 @@
     <h2>Score: {{event?.score}}</h2>
   
     <br>    
-    
+    <div class="mini-scorecards">
     <div class="mini-scores1">
       <span><a href={{event?.votes.vote1.link}}>
       <img [src]="event?.votes.vote1.result" class="vote-image">
@@ -32,7 +32,7 @@
       <span><a href="{{event?.votes.vote12.link}}"><img [src]="event?.votes.vote12.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote13.link}}"><img [src]="event?.votes.vote13.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote14.link}}"><img [src]="event?.votes.vote14.result" class="vote-image"></a></span>
-    </div>
+    </div> 
     
     <div class="mini-scores3">
       <span><a href="{{event?.votes.vote15.link}}"><img [src]="event?.votes.vote15.result" class="vote-image"></a></span>
@@ -42,12 +42,13 @@
       <span><a href="{{event?.votes.vote19.link}}"><img [src]="event?.votes.vote19.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote20.link}}"><img [src]="event?.votes.vote20.result" class="vote-image"></a></span>
       <span><a href="{{event?.votes.vote21.link}}"><img [src]="event?.votes.vote21.result" class="vote-image"></a></span>
-    </div>  
+    </div> 
+  </div> 
   </div>
-    <span class="checkbox">
-      <label>Add to Comparison</label>
+    <span class="compBox">
+      <label>Add to <br>Comparison</label>
       <!-- <input type="checkbox" onchange="compareVal()"> -->
-      <input type="checkbox" (change)="compareVal($event)" [checked]="event.enable"/>
+      <input type="checkbox" class="checkbox" [checked]="event.comparison" (change)="compareVal($event)"/>
       <!-- <button onclick="compareValue()">Click</button> -->
   </span>
     <!-- <span><app-score-key></app-score-key></span>     -->
