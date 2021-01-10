@@ -1,0 +1,11 @@
+.hideTD{
+    display: none;
+   }
+
+button{
+    position: absolute;
+    /* align-items: center; */
+    right: 600px;
+    top: 80px;
+
+}

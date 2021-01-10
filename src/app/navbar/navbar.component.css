@@ -30,3 +30,9 @@ ul.nav.nav-tabs {
 section{
   background-color: rgba(72, 85, 99, 0.800);
 }
+
+@media screen and (max-width: 329px) {
+  ul.nav.nav-tabs {
+    font-size: 16px;
+  }
+}
