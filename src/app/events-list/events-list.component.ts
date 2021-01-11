@@ -1,5 +1,6 @@
 import { EventService } from '../services/event.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 
 @Component({
@@ -11,14 +12,39 @@ import { Component, OnInit } from '@angular/core';
 export class EventsListComponent implements OnInit {
   events: any[]
   searchValue: string; //THIS
- 
 
-  constructor(private eventService: EventService) { }
+  pageYoffset = 0;
+  @HostListener('window:scroll', ['$event']) onScroll(event){
+    this.pageYoffset = window.pageYOffset;
+  }
+
+  constructor(private eventService: EventService, private scroll: ViewportScroller) { }
 
   ngOnInit() {
     this.events = this.eventService.getEvents()
   }
 
+  // myButton = document.getElementById("myBtn");
+
+  // When the user scrolls down 20px from the top of the document, show the button
   
+  
+  // scrollFunction() {
+  //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+  //     this.myButton.style.display = "block";
+  //   } else {
+  //     this.myButton.style.display = "none";
+  //   }
+  // }
+
+  scrollToTop(){
+    this.scroll.scrollToPosition([0,0]);
+}
+  
+  // When the user clicks on the button, scroll to the top of the document
+  // function topFunction() {
+  //   document.body.scrollTop = 0; // For Safari
+  //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  // } 
 
 }
