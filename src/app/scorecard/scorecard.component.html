@@ -1,6 +1,6 @@
 <div>
-    <h2>Score: {{event?.score}}</h2>
-    <div class="mini-scorecard">
+  <h2>Score: {{event?.score}}</h2>
+  <div class="mini-scorecard">
     <a href={{event?.votes.vote1.link}} title="{{event?.votes.vote1.billName}}">
       <img [src]="event?.votes.vote1.result" class="vote-image">
     </a>
@@ -26,7 +26,7 @@
     <a href="{{event?.votes.vote19.link}}" title="{{event?.votes.vote19.billName}}"><img [src]="event?.votes.vote19.result" class="vote-image"></a>
     <a href="{{event?.votes.vote20.link}}" title="{{event?.votes.vote20.billName}}"><img [src]="event?.votes.vote20.result" class="vote-image"></a>
     <a href="{{event?.votes.vote21.link}}" title="{{event?.votes.vote21.billName}}"><img [src]="event?.votes.vote21.result" class="vote-image"></a>
-  </div>
-  </div>
+    </div>
+</div>
 
   <app-score-key></app-score-key>

@@ -26,15 +26,11 @@
 </div>
 </div>
 
-
-  <!-- <div class="row">
-    <div *ngFor="let event of events" class="col-md-5">
-      <app-event-thumbnail [event]="event"></app-event-thumbnail>
-    </div>
-  </div>
-</div> -->
-
 <div (click)="scrollToTop()" class="scroll-to-top" *ngIf="pageYoffset > 0" >
   Back To Top
   <!-- <i class="fa fa-arrow-circle-up"></i>  -->
+</div>
+
+<div (click)="scrollToTop()" class="goCompare" *ngIf="compareEvents.length > 1" >
+  Compare TDs
 </div>
