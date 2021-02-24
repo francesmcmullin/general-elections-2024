@@ -1,13 +1,11 @@
 <h1>Comparison</h1> 
-<!-- <button class="btn btn-info" [routerLink]="['/app-comparisonpage']" onclick="reRender()">Clear Comparison</button> -->
+
 <hr>
 
 <div *ngIf="compareEvents.length > 1;else blank_message">
   <div class="row">
-    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" *ngFor="let compareEvent of compareEvents">
-      <!-- <div [class.hideTD]="event.comparison == false">   -->
-        <app-event-thumbnail [event]="compareEvent"></app-event-thumbnail>  
-      <!-- </div> -->
+    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6" *ngFor="let compareEvent of compareEvents">      
+        <app-event-thumbnail [event]="compareEvent"></app-event-thumbnail>        
     </div>
   </div>
 </div>

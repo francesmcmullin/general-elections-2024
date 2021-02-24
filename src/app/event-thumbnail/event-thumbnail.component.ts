@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { EventService } from '../services/event.service';
+
 
 @Component({
   selector: 'app-event-thumbnail',
@@ -12,38 +14,26 @@ export class EventThumbnailComponent implements OnInit {
 
   @Input() checkbox:boolean
 
-  constructor() { }
+  events: any[]
 
-  ngOnInit(): void {
-    // if(this.event.comparison==true){
-    //   this.checkbox === true;
-    // }
-    
+  compareEvents: any[]
+
+  constructor(private eventService: EventService) { }
+  
+  ngOnInit() {
+    this.events = this.eventService.getEvents()
   }
   
-//   compareVal(){
-//     if(this.checkbox=true){
-//       alert("Checked!");
-//       console.log("Checked!");
-//       this.event.comparison == true;
-//         }
-//   else {
-//        alert("UnChecked!");
-//        console.log("UnChecked!");
-//        this.event.comparison == false;
-//         }
-//   }
-
 compareVal(e) {
   if(e.target.checked){
     this.event.comparison=true;
-    // this.event.name="Ticked";
-    // this.checkbox.valueOf() == true;
+    this.compareEvents = this.events.filter(event => event.comparison == true);
+
   }
   else{
       this.event.comparison=false;
-      // this.event.name="Unticked";
-      // this.checkbox.valueOf() == false;
+      this.compareEvents = this.events.filter(event => event.comparison == true);
+
     }
 }
 

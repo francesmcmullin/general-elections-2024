@@ -12,6 +12,7 @@ import { ViewportScroller } from '@angular/common';
 export class EventsListComponent implements OnInit {
   events: any[]
   searchValue: string; //THIS
+  compareEvents: any[]
 
   pageYoffset = 0;
   @HostListener('window:scroll', ['$event']) onScroll(event){
@@ -20,8 +21,10 @@ export class EventsListComponent implements OnInit {
 
   constructor(private eventService: EventService, private scroll: ViewportScroller) { }
 
+
   ngOnInit() {
     this.events = this.eventService.getEvents()
+    this.compareEvents = this.events.filter(event => event.comparison == true);
   }
 
   // myButton = document.getElementById("myBtn");
@@ -39,7 +42,7 @@ export class EventsListComponent implements OnInit {
 
   scrollToTop(){
     this.scroll.scrollToPosition([0,0]);
-}
+  }
   
   // When the user clicks on the button, scroll to the top of the document
   // function topFunction() {
@@ -47,4 +50,13 @@ export class EventsListComponent implements OnInit {
   //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   // } 
 
+  testMsg(){
+    this.compareEvents = this.events.filter(event => event.comparison == true);
+    alert(this.compareEvents.length);
+    // console.log(this.compareCount);
+  }
+
+  updateArray(){ //THIS NEEDS TO BE TRIGGERED BY CHECKBOX
+    this.compareEvents = this.events.filter(event => event.comparison == true);
+  }
 }
