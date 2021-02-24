@@ -47,7 +47,7 @@
   </div>
     <span class="compBox">
       <label>Add to <br>Comparison</label>
-      <input type="checkbox" class="checkbox" [checked]="event.comparison" (change)="compareVal($event)"/>      
+      <input type="checkbox" class="checkbox" [checked]="event.comparison" (change)="compareVal($event)" (change)="spotChange()"/>      
     </span>
     <!-- <span><app-score-key></app-score-key></span>     -->
     

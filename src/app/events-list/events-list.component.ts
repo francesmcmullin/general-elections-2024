@@ -1,6 +1,7 @@
 import { EventService } from '../services/event.service';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
+import { InteractionService } from '../services/interaction.service';
 
 
 @Component({
@@ -19,11 +20,17 @@ export class EventsListComponent implements OnInit {
     this.pageYoffset = window.pageYOffset;
   }
 
-  constructor(private eventService: EventService, private scroll: ViewportScroller) { }
+  constructor(private eventService: EventService, private scroll: ViewportScroller, private _interactionService: InteractionService) { }
 
 
   ngOnInit() {
     this.events = this.eventService.getEvents()
+    this._interactionService.thumbnailMessage$
+      .subscribe(
+        message => {
+          this.compareEvents = this.events.filter(event => event.comparison == true);
+        }
+      )
     this.compareEvents = this.events.filter(event => event.comparison == true);
   }
 

@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { EventService } from '../services/event.service';
+import { InteractionService } from '../services/interaction.service';
 
 
 @Component({
@@ -18,7 +19,7 @@ export class EventThumbnailComponent implements OnInit {
 
   compareEvents: any[]
 
-  constructor(private eventService: EventService) { }
+  constructor(private eventService: EventService, private _interactionService: InteractionService) { }
   
   ngOnInit() {
     this.events = this.eventService.getEvents()
@@ -37,6 +38,9 @@ compareVal(e) {
     }
 }
 
+spotChange(){
+  this._interactionService.sendMessage('Checkbox Clicked');
+}
 
 // unTick(compareEvent: any) {
   // this.compareEvents.splice(index,1);
