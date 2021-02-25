@@ -42,9 +42,4 @@ spotChange(){
   this._interactionService.sendMessage('Checkbox Clicked');
 }
 
-// unTick(compareEvent: any) {
-  // this.compareEvents.splice(index,1);
-  // const index = this.compareEvents.indexOf(compareEvent);
-  // this.compareEvents.splice(index, 1);
-// }
 }  

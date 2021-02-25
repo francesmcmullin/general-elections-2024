@@ -42,3 +42,64 @@ html,body
   .toast-warning {
     background-color: #f89406;
   }
+
+  .untick {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 5px; /* Place the button at the bottom of the page */
+    left: 10px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: rgba(5, 85, 85, 0.9);
+    border-style: solid;
+    outline: none; /* Remove outline */
+    background-color:rgba(9, 175, 175, 0.975); 
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-top: 12.5px;
+    padding-bottom: 12.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    text-decoration: solid;
+}
+
+.scroll-to-top:hover, .untick:hover {
+  background-color: rgba(98, 104, 201);
+}
+
+.scroll-to-top{
+  position: fixed; /* Fixed/sticky position */
+  bottom: 5px; /* Place the button at the bottom of the page */
+  right: 10px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: rgba(5, 85, 85, 0.9);
+  border-style: solid;
+  outline: none; /* Remove outline */
+  background-color:rgba(9, 175, 175, 0.95); 
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 4.25px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  height: 57.5px;
+  width: 57.5px;
+  /* font-size: 18px; */
+}
+
+@media screen and (max-width: 329px) {
+
+  .untick {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;      
+ }      
+  .scroll-to-top {
+     padding-top: 2px;
+     padding-bottom: 9px;
+     padding-left: 2px;
+     padding-right: 2px; 
+     position: fixed;
+     right: 4px;     
+  }
+ 
+}

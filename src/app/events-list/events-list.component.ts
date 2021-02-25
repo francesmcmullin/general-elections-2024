@@ -2,6 +2,7 @@ import { EventService } from '../services/event.service';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { InteractionService } from '../services/interaction.service';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -20,7 +21,10 @@ export class EventsListComponent implements OnInit {
     this.pageYoffset = window.pageYOffset;
   }
 
-  constructor(private eventService: EventService, private scroll: ViewportScroller, private _interactionService: InteractionService) { }
+  constructor(private eventService: EventService, 
+              private scroll: ViewportScroller, 
+              private _interactionService: InteractionService,
+              private router: Router) { }
 
 
   ngOnInit() {
@@ -34,36 +38,20 @@ export class EventsListComponent implements OnInit {
     this.compareEvents = this.events.filter(event => event.comparison == true);
   }
 
-  // myButton = document.getElementById("myBtn");
-
-  // When the user scrolls down 20px from the top of the document, show the button
-  
-  
-  // scrollFunction() {
-  //   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-  //     this.myButton.style.display = "block";
-  //   } else {
-  //     this.myButton.style.display = "none";
-  //   }
-  // }
-
   scrollToTop(){
     this.scroll.scrollToPosition([0,0]);
   }
   
-  // When the user clicks on the button, scroll to the top of the document
-  // function topFunction() {
-  //   document.body.scrollTop = 0; // For Safari
-  //   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  // } 
 
-  testMsg(){
-    this.compareEvents = this.events.filter(event => event.comparison == true);
-    alert(this.compareEvents.length);
-    // console.log(this.compareCount);
+  openComparison(){
+    this.router.navigate(['/app-comparisonpage']);
   }
 
-  updateArray(){ //THIS NEEDS TO BE TRIGGERED BY CHECKBOX
-    this.compareEvents = this.events.filter(event => event.comparison == true);
+  untickAll(){   
+    this.compareEvents.forEach((event) => {
+      event.comparison = false;
+    });
+    this._interactionService.sendMessage('Checkbox Clicked');
   }
+
 }
