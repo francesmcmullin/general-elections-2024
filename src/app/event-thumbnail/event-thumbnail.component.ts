@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { EventService } from '../services/event.service';
 import { InteractionService } from '../services/interaction.service';
@@ -19,7 +20,9 @@ export class EventThumbnailComponent implements OnInit {
 
   compareEvents: any[]
 
-  constructor(private eventService: EventService, private _interactionService: InteractionService) { }
+  constructor(private eventService: EventService, 
+              private _interactionService: InteractionService,
+              private scroll: ViewportScroller) { }
   
   ngOnInit() {
     this.events = this.eventService.getEvents()
@@ -40,6 +43,10 @@ compareVal(e) {
 
 spotChange(){
   this._interactionService.sendMessage('Checkbox Clicked');
+}
+
+scrollToTop(){
+  this.scroll.scrollToPosition([0,0]);
 }
 
 }  

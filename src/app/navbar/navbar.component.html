@@ -6,15 +6,15 @@
     </li>
     
     <li class="nav-item">
-      <a class="nav-link active" [routerLink]="['/All-TDs']">Search TDs</a>
+      <a class="nav-link active" (click)="scrollToTop()" [routerLink]="['/All-TDs']">Search TDs</a>
     </li>
 
     <li class="nav-item">
-      <a class="nav-link active" [routerLink]="['/app-party-page']">Party Scores</a>
+      <a class="nav-link active" (click)="scrollToTop()" [routerLink]="['/app-party-page']">Party Scores</a>
     </li>
 
     <!-- <li class="nav-item">
-      <a class="nav-link active" [routerLink]="['/app-comparisonpage']">Compare TDs</a>
+      <a class="nav-link active" (click)="scrollToTop()" [routerLink]="['/app-comparisonpage']">Compare TDs</a>
     </li> -->
   </ul>
 </section>

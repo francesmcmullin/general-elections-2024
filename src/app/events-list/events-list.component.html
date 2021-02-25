@@ -29,7 +29,7 @@
   <strong>Untick All</strong>
 </div>
 
-<div (click)="openComparison()" class="goCompare" *ngIf="compareEvents?.length > 1">
+<div (click)="scrollToTop()" (click)="openComparison()" class="goCompare" *ngIf="compareEvents?.length > 1">
   <strong>Compare {{compareEvents?.length}} TDs</strong>
 </div>
 

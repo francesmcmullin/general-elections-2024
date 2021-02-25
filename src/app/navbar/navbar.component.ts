@@ -1,5 +1,6 @@
 import { RouterModule } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 
 @Component({
@@ -10,9 +11,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroll: ViewportScroller) { }
 
   ngOnInit(): void {
+  }
+
+  scrollToTop(){
+    this.scroll.scrollToPosition([0,0]);
   }
 
   
