@@ -69,3 +69,21 @@ hr {
         padding-right: 8px;      
     }
   }
+
+  .btn{
+    color: aliceblue;
+    background-color: rgba(9, 175, 175, 0.975); 
+    position: relative;
+    bottom: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+
+  }
+
+.btn:hover{
+  background-color: rgba(98, 104, 201);
+}
+
+.mb-0{
+  height: 20px;
+}
