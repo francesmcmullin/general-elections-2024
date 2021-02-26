@@ -6,21 +6,20 @@
   <hr>
   <span>Search your Constituency/Candidate </span>
   <input type="text" [(ngModel)]="searchValue" placeholder="Type a  Constituency,  Name,  Party  or  Score"> <!--added ngModel-->
-  <!-- <br> -->
   
   <div class="accordion" id="accordionExample">
       
     <div class="card">
-      <div class="card-header" id="headingTwo">
+      <div class="card-header" id="headingOne">
         <h2 class="mb-0">
-          <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <button id="symbol" class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
             Symbols Meaning <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrows-collapse" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13A.5.5 0 0 1 1 8zm7-8a.5.5 0 0 1 .5.5v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 1 1 .708-.708L7.5 4.293V.5A.5.5 0 0 1 8 0zm-.5 11.707l-1.146 1.147a.5.5 0 0 1-.708-.708l2-2a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1-.708.708L8.5 11.707V15.5a.5.5 0 0 1-1 0v-3.793z"/>
             </svg>
           </button>
         </h2>
       </div>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
         <div class="card-body">
           <app-score-key></app-score-key>
         </div>
@@ -29,16 +28,6 @@
     
   </div>
  
-  <!-- <div class="scorekey">
-    <span><img src="./assets/images/positive.jpg" class="key-image" /> = Voted in a
-    climate positive way</span>
-    <span><img src="./assets/images/not_td.jpg" class="key-image" /> = Was not a TD at
-    the time so could not vote</span><br />
-    <span><img src="./assets/images/negative.jpg" class="key-image" /> = Voted in a
-    climate negative way </span>
-    <span><img src="./assets/images/did_not_vote.jpg" class="key-image" /> = Did not vote</span>
-  </div> -->
-
 <div class="row">
   <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6" *ngFor="let event of events | searchfilter:searchValue"> <!--added pipe filter-->
       <app-event-thumbnail [event]="event"></app-event-thumbnail>
