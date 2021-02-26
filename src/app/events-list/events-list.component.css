@@ -74,9 +74,14 @@ hr {
     color: aliceblue;
     background-color: rgba(9, 175, 175, 0.975); 
     position: relative;
-    bottom: 15px;
+    bottom: 22px;
     text-decoration: none;
     border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    ;
 
   }
 
