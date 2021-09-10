@@ -1,3 +1,9 @@
+# View the Site
+To view this site visit https://bcagfoghlaim.github.io/NHNA-ClimateRecord/All-TDs
+- Use the Search page to search for TD's based on name, party or constituency.
+- Click individual TD's to learn more about them
+- Tick the Comparison checkbox on 2+ TD's to compare them side by side
+
 # Events
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.4.
