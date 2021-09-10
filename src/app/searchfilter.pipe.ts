@@ -5,16 +5,16 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class SearchfilterPipe implements PipeTransform {
 
-  transform(events: any[], searchValue: string): any[] {
+  transform(tds: any[], searchValue: string): any[] {
 
-    if(!events || !searchValue) {
-      return events;
+    if(!tds || !searchValue) {
+      return tds;
     }
-    return events.filter(event =>
-      event.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      event.party.partyName.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      event.constituency.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      event.score.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
+    return tds.filter(td =>
+      td.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      td.party.partyName.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      td.constituency.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
+      td.score.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
 
   }
 

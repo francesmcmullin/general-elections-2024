@@ -2,12 +2,12 @@ import { ComparisonpageComponent } from './comparisonpage/comparisonpage.compone
 import { PartyPageComponent } from './party-page/party-page.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { EventDetailsComponent } from './event-details/event-details.component';
-import { EventsListComponent } from './events-list/events-list.component';
+import { TdDetailsComponent as TdDetailsComponent } from './td-details/td-details.component';
+import { TdsListComponent as TdsListComponent } from './tds-list/tds-list.component';
 
 const routes: Routes = [
-  { path: 'All-TDs', component: EventsListComponent },
-  { path: 'events/:name', component: EventDetailsComponent },
+  { path: 'All-TDs', component: TdsListComponent },
+  { path: 'tds/:name', component: TdDetailsComponent },
   { path: 'app-party-page', component: PartyPageComponent },
   { path: 'app-comparisonpage', component: ComparisonpageComponent },
   { path: '', redirectTo: '/All-TDs', pathMatch:'full'}

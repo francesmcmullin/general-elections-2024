@@ -1,4 +1,4 @@
-import { EventService } from './../services/event.service';
+import { TdService } from './../services/td.service';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { InteractionService } from '../services/interaction.service';
@@ -9,27 +9,27 @@ import { InteractionService } from '../services/interaction.service';
   styleUrls: ['./comparisonpage.component.css']
 })
 export class ComparisonpageComponent implements OnInit {
-  events: any[]
-  compareEvents: any[]
+  tds: any[]
+  compareTds: any[]
 
   pageYoffset = 0;
-  @HostListener('window:scroll', ['$event']) onScroll(event){
+  @HostListener('window:scroll', ['$td']) onScroll(td){
     this.pageYoffset = window.pageYOffset;
   }
 
-  constructor(private eventService: EventService,
+  constructor(private tdService: TdService,
               private scroll: ViewportScroller,
               private _interactionService: InteractionService) { }
 
   ngOnInit() {
-    this.events = this.eventService.getEvents()
+    this.tds = this.tdService.getTds()
     this._interactionService.thumbnailMessage$
       .subscribe(
         message => {
-          this.compareEvents = this.events.filter(event => event.comparison == true);
+          this.compareTds = this.tds.filter(td => td.comparison == true);
         }
       )
-    this.compareEvents = this.events.filter(event => event.comparison == true);
+    this.compareTds = this.tds.filter(td => td.comparison == true);
 
   }
 
@@ -38,8 +38,8 @@ export class ComparisonpageComponent implements OnInit {
   }
 
   untickAll(){   
-    this.compareEvents.forEach((event) => {
-      event.comparison = false;
+    this.compareTds.forEach((td) => {
+      td.comparison = false;
     });
     this._interactionService.sendMessage('Checkbox Clicked');
   }

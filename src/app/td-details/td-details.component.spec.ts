@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventThumbnailComponent } from './event-thumbnail.component';
+import { TdDetailsComponent } from './td-details.component';
 
-describe('EventThumbnailComponent', () => {
-  let component: EventThumbnailComponent;
-  let fixture: ComponentFixture<EventThumbnailComponent>;
+describe('TdDetailsComponent', () => {
+  let component: TdDetailsComponent;
+  let fixture: ComponentFixture<TdDetailsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventThumbnailComponent ]
+      declarations: [ TdDetailsComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventThumbnailComponent);
+    fixture = TestBed.createComponent(TdDetailsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

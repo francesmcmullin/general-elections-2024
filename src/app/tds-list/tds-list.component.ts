@@ -1,4 +1,4 @@
-import { EventService } from '../services/event.service';
+import { TdService } from '../services/td.service';
 import { Component, HostListener, OnInit } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 import { InteractionService } from '../services/interaction.service';
@@ -6,36 +6,36 @@ import { Router } from '@angular/router';
 
 
 @Component({
-  selector: 'app-events-list',
-  templateUrl: './events-list.component.html', 
-  styleUrls: ['./events-list.component.css']
+  selector: 'app-tds-list',
+  templateUrl: './tds-list.component.html', 
+  styleUrls: ['./tds-list.component.css']
 })
 
-export class EventsListComponent implements OnInit {
-  events: any[]
+export class TdsListComponent implements OnInit {
+  tds: any[]
   searchValue: string; //THIS
-  compareEvents: any[]
+  compareTds: any[]
 
   pageYoffset = 0;
-  @HostListener('window:scroll', ['$event']) onScroll(event){
+  @HostListener('window:scroll', ['$td']) onScroll(event){
     this.pageYoffset = window.pageYOffset;
   }
 
-  constructor(private eventService: EventService, 
+  constructor(private tdService: TdService, 
               private scroll: ViewportScroller, 
               private _interactionService: InteractionService,
               private router: Router) { }
 
 
   ngOnInit() {
-    this.events = this.eventService.getEvents()
+    this.tds = this.tdService.getTds()
     this._interactionService.thumbnailMessage$
       .subscribe(
         message => {
-          this.compareEvents = this.events.filter(event => event.comparison == true);
+          this.compareTds = this.tds.filter(td => td.comparison == true);
         }
       )
-    this.compareEvents = this.events.filter(event => event.comparison == true);
+    this.compareTds = this.tds.filter(td => td.comparison == true);
   }
 
   scrollToTop(){
@@ -48,8 +48,8 @@ export class EventsListComponent implements OnInit {
   }
 
   untickAll(){   
-    this.compareEvents.forEach((event) => {
-      event.comparison = false;
+    this.compareTds.forEach((td) => {
+      td.comparison = false;
     });
     this._interactionService.sendMessage('Checkbox Clicked');
   }

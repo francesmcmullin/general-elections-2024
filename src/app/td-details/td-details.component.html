@@ -1,0 +1,44 @@
+<div class="container">
+    <img [src]="td?.imageUrl" [alt]="td?.name" class="td-image">
+  
+    <div class="row">
+      <div class="col-md-11">
+        <h2>{{td?.name}}</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <div><strong>Constituency:</strong> {{td?.constituency}}</div>
+        <div><strong>Party:</strong> {{td?.party.partyName}}</div>
+        <div><strong>Party Score:</strong> {{td?.party.partyScore}}</div>
+        <br/>
+        
+        <div [class.hideText]="td?.tally.notTdVotes != 21">
+          <p>{{td?.name}} has not been a TD for the 21 votes in question and so has not been assigned a Climate Score</p>
+        </div>
+       
+        <div [class.hideText]="td.moreThan3 == true || td?.tally.notTdVotes == 21">
+          <p>{{td?.name}} has voted in less than 3 of the 21 votes in question and so has not been assigned a Climate Score</p>
+        </div>
+               
+        
+        <div [class.hideText]="td.moreThan3 == false">
+          <p>{{td?.name}} was a TD for {{ totalResult }} of the 21 votes in question. They were absent or abstained from voting {{td?.tally.absentVotes}} time(s).<br/>
+            Of the remaining {{ mainResult }}, they voted in a climate positive way {{td?.tally.positiveVotes}} times and they voted in a climate negative {{td?.tally.negativeVotes}} times,
+            giving an overall Climate Score of {{td?.score}}</p>        
+        </div>
+        
+        <div>
+          <p>{{td?.name}} has/has not signed the NHNA Election Pledge</p>
+        </div>
+      </div>
+      
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+        <app-scorecard></app-scorecard>
+      </div>
+      
+    </div>
+</div>
+
+  

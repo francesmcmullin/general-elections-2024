@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { EventService } from '../services/event.service';
+import { TdService } from '../services/td.service';
 
 
 @Component({
@@ -11,13 +11,13 @@ import { EventService } from '../services/event.service';
 })
 export class ScorecardComponent implements OnInit {
 
-  event:any
-  constructor(private eventService:EventService, private route:ActivatedRoute){
+  td:any
+  constructor(private tdService:TdService, private route:ActivatedRoute){
 
   }
 
   ngOnInit() {
-    this.event = this.eventService.getEvent(this.route.snapshot.params['name'])
+    this.td = this.tdService.getTd(this.route.snapshot.params['name'])
     
   }
 

@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EventsListComponent } from './events-list.component';
+import { TdThumbnailComponent } from './td-thumbnail.component';
 
-describe('EventsListComponent', () => {
-  let component: EventsListComponent;
-  let fixture: ComponentFixture<EventsListComponent>;
+describe('TdThumbnailComponent', () => {
+  let component: TdThumbnailComponent;
+  let fixture: ComponentFixture<TdThumbnailComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EventsListComponent ]
+      declarations: [ TdThumbnailComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(EventsListComponent);
+    fixture = TestBed.createComponent(TdThumbnailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

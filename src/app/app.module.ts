@@ -3,12 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { EventsListComponent } from './events-list/events-list.component';
-import { EventThumbnailComponent } from './event-thumbnail/event-thumbnail.component';
+import { TdsListComponent } from './tds-list/tds-list.component';
+import { TdThumbnailComponent } from './td-thumbnail/td-thumbnail.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { EventService } from './services/event.service';
+import { TdService } from './services/td.service';
 
-import { EventDetailsComponent } from './event-details/event-details.component';
+import { TdDetailsComponent } from './td-details/td-details.component';
 import { ScorecardComponent } from './scorecard/scorecard.component';
 import { ScoreKeyComponent } from './score-key/score-key.component';
 import { PartyPageComponent } from './party-page/party-page.component';
@@ -21,10 +21,10 @@ import { ComparisonpageComponent } from './comparisonpage/comparisonpage.compone
 @NgModule({
   declarations: [
     AppComponent,
-    EventsListComponent,
-    EventThumbnailComponent,
+    TdsListComponent,
+    TdThumbnailComponent,
     NavbarComponent,
-    EventDetailsComponent,
+    TdDetailsComponent,
     ScorecardComponent,
     ScoreKeyComponent,
     PartyPageComponent,
@@ -38,7 +38,7 @@ import { ComparisonpageComponent } from './comparisonpage/comparisonpage.compone
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [EventService],
+  providers: [TdService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

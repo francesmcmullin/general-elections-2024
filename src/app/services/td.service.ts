@@ -3,19 +3,19 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root',
 })
-export class EventService {
-  getEvents() {
-    return EVENTS;
+export class TdService {
+  getTds() {
+    return TDS;
   }
 
-  getEvent(name: string) {
-    return EVENTS.find((event) => event.name === name);
+  getTd(name: string) {
+    return TDS.find((td) => td.name === name);
   }
 
   constructor() {}
 }
 
-const EVENTS = [
+const TDS = [
   {
     name: 'Alan Dillon',
     comparison: false,
