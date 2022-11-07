@@ -14,11 +14,10 @@
 }
 
 span a{
-  color: aliceblue;
   font-size: 25px;
   padding: 15px 15px;
   text-decoration: none;
-}
+ }
 
 ul.nav.nav-tabs {
   margin-bottom: 0;
@@ -28,11 +27,25 @@ ul.nav.nav-tabs {
 }
 
 section{
-  background-color: rgba(72, 85, 99, 0.800);
+  background-color: white;
+  padding-bottom: 0px;
 }
 
 @media screen and (max-width: 329px) {
   ul.nav.nav-tabs {
     font-size: 16px;
   }
+}
+
+.nav-link {
+  background-color: #009FE3;
+  color: white;
+}
+
+.nav-link:active {
+  background-color: rgb(0, 159, 227,60%);
+}
+
+.nav-link:hover {
+  background-color: rgb(0, 159, 227, 70%);
 }
