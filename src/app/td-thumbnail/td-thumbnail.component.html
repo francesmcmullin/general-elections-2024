@@ -4,46 +4,11 @@
     
     <h2>{{td?.name}}</h2>
     <div>{{td?.constituency}}</div>
-    <div *ngIf="td?.party">{{td?.party.partyName}}</div>
-    <div *ngIf="td?.party">Party Score: {{td?.party.partyScore}}</div>
+    <div>{{td?.partyName}}</div>
+    <div>Party Score: {{td?.partyScore}}</div>
     
-    <h2>Score: {{td?.score}}</h2>
-  
-    <br>    
-    <div class="mini-scorecards">
-    <div class="mini-scores1">
-      <span><a href={{td?.votes.vote1.link}}>
-      <img [src]="td?.votes.vote1.result" class="vote-image">
-            </a>
-      </span>
-      <span><a href="{{td?.votes.vote2.link}}"><img [src]="td?.votes.vote2.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote3.link}}"><img [src]="td?.votes.vote3.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote4.link}}"><img [src]="td?.votes.vote4.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote5.link}}"><img [src]="td?.votes.vote5.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote6.link}}"><img [src]="td?.votes.vote6.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote7.link}}"><img [src]="td?.votes.vote7.result" class="vote-image"></a></span>
-    </div>
-    
-    <div class="mini-scores2">
-      <span><a href="{{td?.votes.vote8.link}}"><img [src]="td?.votes.vote8.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote9.link}}"><img [src]="td?.votes.vote9.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote10.link}}"><img [src]="td?.votes.vote10.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote11.link}}"><img [src]="td?.votes.vote11.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote12.link}}"><img [src]="td?.votes.vote12.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote13.link}}"><img [src]="td?.votes.vote13.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote14.link}}"><img [src]="td?.votes.vote14.result" class="vote-image"></a></span>
-    </div> 
-    
-    <div class="mini-scores3">
-      <span><a href="{{td?.votes.vote15.link}}"><img [src]="td?.votes.vote15.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote16.link}}"><img [src]="td?.votes.vote16.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote17.link}}"><img [src]="td?.votes.vote17.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote18.link}}"><img [src]="td?.votes.vote18.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote19.link}}"><img [src]="td?.votes.vote19.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote20.link}}"><img [src]="td?.votes.vote20.result" class="vote-image"></a></span>
-      <span><a href="{{td?.votes.vote21.link}}"><img [src]="td?.votes.vote21.result" class="vote-image"></a></span>
-    </div> 
-  </div> 
+    <h2>Score:</h2><img [src]="td?.score" class="vote-image">
+             
   </div>
     <span class="compBox">
       <label>Add to <br>Comparison</label>
