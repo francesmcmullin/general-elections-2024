@@ -7,6 +7,7 @@ html,body
     /* padding: 0px; */
     overflow-x: hidden; 
     /* scroll-behavior: smooth; */
+    background-color: white;
 }
 
 .hoverwell:hover {
@@ -134,4 +135,13 @@ html,body
 
 #symbol:hover{
 background-color: rgba(98, 104, 201);
+}
+
+h1, span {
+  color: black;
+}
+
+hr {
+border-color: #F2293B;
+border-width: 3px;
 }

@@ -62,6 +62,7 @@ app-score-key img{
   display: inline-flexbox;
   float: top;
   flex-direction: column;
+  color: white;
   
 }
 
@@ -143,4 +144,5 @@ label{
 #info{
   position: relative;
   top: 4px;
+  color: white;
 }
