@@ -1274,7 +1274,7 @@ const TDS = [
   },
   {
     name: "Ivana Bacik",
-    imageUrl: "./assets/images/candidates/Bacik, Ivana_Lab_Dublin_Bay_South.png",
+    imageUrl: "./assets/images/candidates/Bacik, Ivana_Lab.png",
     partyName: "Labour Party",
     constituency: "Dublin Bay South",
     score: "./assets/images/positive.jpg",
@@ -1282,7 +1282,7 @@ const TDS = [
   },
   {
     name: "Seán Ó Fearghaíl",
-    imageUrl: "./assets/images/candidates/O Fearghail, Sean_FF_Kildare_South.png",
+    imageUrl: "./assets/images/candidates/O Fearghail, Sean_FF.png",
     partyName: "Fianna Fáil",
     constituency: "Kildare South",
     score: "./assets/images/positive.jpg",
