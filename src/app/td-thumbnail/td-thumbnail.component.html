@@ -2,7 +2,7 @@
   <div class="clickable" (click)="scrollToTop()" [routerLink] = "['/tds', td.name]">
     <img [src]="td?.imageUrl" [alt]="td?.name" class="td-image">
     
-    <h2>{{td?.name}}</h2>
+    <h2 class="banner">{{td?.name}}</h2>
     <div>{{td?.constituency}}</div>
     <div>{{td?.partyName}}</div>
     <div>Party Score: {{td?.partyScore}}</div>
@@ -14,6 +14,6 @@
       <label>Add to <br>Comparison</label>
       <input type="checkbox" class="checkbox" [checked]="td.comparison" (change)="compareVal($event)" (change)="spotChange()"/>      
     </span>
-    <span id="info">Click TD picture for more info</span>
-    
+    <!-- <span id="info">Click TD picture for more info</span> -->
+    <span><button onclick="window.location.href='https://action.uplift.ie/campaigns/ceta-pledge';">Email {{td?.name}}</button></span>
   </div>

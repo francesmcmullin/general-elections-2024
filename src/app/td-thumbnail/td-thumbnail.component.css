@@ -5,13 +5,16 @@
   padding-bottom: 1px;
   padding-right: 12px;
   border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 .pad-left {
   margin-left: 8px;
 }
 .well div {
-  color: #bbb;
+  color: black;
+  background-color: white;
   
 }
 .td-image {
@@ -64,7 +67,7 @@ app-score-key img{
   float: top;
   flex-direction: column;
   color: white;
-  
+  background-color: #009FE3;
 }
 
 .checkbox {
@@ -146,4 +149,20 @@ label{
   position: relative;
   top: 4px;
   color: white;
+  background-color: #009FE3;
+}
+
+.banner {
+  background-color: #F2293B;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #009FE3;
+  color: white;
+  border-radius: 2.5px;
+  border-width: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
