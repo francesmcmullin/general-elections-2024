@@ -107,7 +107,14 @@
               "devServerTarget": "Events:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
-    }}
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
 }
