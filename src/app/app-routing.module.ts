@@ -6,11 +6,11 @@ import { TdDetailsComponent as TdDetailsComponent } from './td-details/td-detail
 import { TdsListComponent as TdsListComponent } from './tds-list/tds-list.component';
 
 const routes: Routes = [
-  { path: 'All-TDs', component: TdsListComponent },
+  { path: 'All-Candidates', component: TdsListComponent },
   { path: 'tds/:name', component: TdDetailsComponent },
   { path: 'app-party-page', component: PartyPageComponent },
   { path: 'app-comparisonpage', component: ComparisonpageComponent },
-  { path: '', redirectTo: '/All-TDs', pathMatch:'full'}
+  { path: '', redirectTo: '/All-Candidates', pathMatch:'full'}
 ]
 
 @NgModule({
