@@ -944,6 +944,15 @@ const TDS = [
     phone: "087 6829049"
   },
   {
+    name: "Peter Keaveney",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Peter Keaveney.jpg",
+    partyName: "Fine Gael",
+    constituency: "Ballinasloe",
+    score: "./assets/images/positive.jpg",
+    email: "pkeaveney@cllr.galwaycoco.ie",
+    phone: "087 2533098"
+  },
+  {
     name: "Regan Maher",
     imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Regan Maher.png",
     partyName: "Sinn Féin",
@@ -987,6 +996,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "seamus.coyle@cllr.monaghancoco.ie",
     phone: "(087) 6814067"
+  },
+  {
+    name: "Seán Gilliland",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Sean Gilliland.jpg",
+    partyName: "Fine Gael",
+    constituency: "Ballybay - Clones",
+    score: "./assets/images/positive.jpg",
+    email: "sean.gilliland@cllr.monaghancoco.ie",
+    phone: "(087) 9969946"
   },
   {
     name: "Sinead Flynn",
@@ -1106,6 +1124,15 @@ const TDS = [
     phone: ""
   },
   {
+    name: "T.P. O'Reilly",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/T.P. O'Reilly.png",
+    partyName: "Fine Gael",
+    constituency: "Ballyjamesduff",
+    score: "./assets/images/positive.jpg",
+    email: "tporeilly@cavancoco.ie",
+    phone: "086 8049623"
+  },
+  {
     name: "Trevor Smith",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Trevor Smith.jpg",
     partyName: "Fine Gael",
@@ -1131,6 +1158,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "colmmurray@longfordcoco.ie",
     phone: "086 3986245"
+  },
+  {
+    name: "Michael Cahill",
+    imageUrl: "#N/A",
+    partyName: "Fianna Fáil",
+    constituency: "Ballymahon",
+    score: "./assets/images/positive.jpg",
+    email: "mcahill@longfordcoco.ie",
+    phone: "086 2397818"
   },
   {
     name: "Pat O'Toole",
@@ -1295,6 +1331,15 @@ const TDS = [
     phone: "083 165 7241"
   },
   {
+    name: "Edward MacManus",
+    imageUrl: "./assets/images/LE 2024 Images/Aontu/Edward MacManus.jpg",
+    partyName: "Aontú",
+    constituency: "Ballymun-Finglas",
+    score: "./assets/images/not_td.jpg",
+    email: "edward.macmanus@Aontú.ie",
+    phone: "086 837 2690"
+  },
+  {
     name: "John Lonergan",
     imageUrl: "./assets/images/LE 2024 Images/Labour/John Lonergan.png",
     partyName: "Labour",
@@ -1439,6 +1484,15 @@ const TDS = [
     phone: "086-3447740"
   },
   {
+    name: "Margaret Murphy O'Mahony",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Margaret Murphy O'Mahony.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Bandon-Kinsale",
+    score: "./assets/images/negative.jpg",
+    email: "murphyomahonymargaret@gmail.com",
+    phone: ""
+  },
+  {
     name: "Marie O'Sullivan",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Marie O'Sullivan.jpg",
     partyName: "Fine Gael",
@@ -1565,6 +1619,15 @@ const TDS = [
     phone: ""
   },
   {
+    name: "Audrey Hennessy Kennedy",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Audrey Hennessy Kennedy.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Birr",
+    score: "./assets/images/positive.jpg",
+    email: "audreyhenny@gmail.com",
+    phone: "087 446 8660"
+  },
+  {
     name: "Barbara Daly",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Barbara Daly.webp",
     partyName: "Fianna Fáil",
@@ -1689,6 +1752,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "michael.reynoldsff@gmail.com",
     phone: "087 475 0461"
+  },
+  {
+    name: "Breda Hanaphy",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Breda Hanaphy.png",
+    partyName: "Sinn Féin",
+    constituency: "Blanchardstown - Mulhuddart",
+    score: "./assets/images/positive.jpg",
+    email: "Breda.Hanaphy@cllrs.fingal.ie",
+    phone: "0871620917"
   },
   {
     name: "John Kingsley Onwumereh",
@@ -1823,6 +1895,15 @@ const TDS = [
     constituency: "Boyle",
     score: "./assets/images/not_td.jpg",
     email: "",
+    phone: ""
+  },
+  {
+    name: "Dympna Daly-Finn",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Dympna Daly-Finn.jpg",
+    partyName: "Fine Gael",
+    constituency: "Boyle",
+    score: "./assets/images/positive.jpg",
+    email: "dympnadalyfinnfg@gmail.com",
     phone: ""
   },
   {
@@ -2105,6 +2186,15 @@ const TDS = [
     phone: "086 8261387"
   },
   {
+    name: "Micheal Anglim",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Micheal Anglim.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Cahir",
+    score: "./assets/images/negative.jpg",
+    email: "micheal.anglim@cllr.tipperarycoco.ie",
+    phone: "086 0251277"
+  },
+  {
     name: "Deirdre Cullen",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Deirdre Cullen.webp",
     partyName: "Fianna Fáil",
@@ -2139,6 +2229,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "orla@orlakellyfg.ie",
     phone: "085-1627144"
+  },
+  {
+    name: "Peter 'Chap' Cleere",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Peter 'Chap' Cleere.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Callan-Thomastown",
+    score: "./assets/images/positive.jpg",
+    email: "cllrpeter.cleere@kilkennycoco.ie",
+    phone: "086-4666409"
   },
   {
     name: "Al Fitzgerald",
@@ -2366,6 +2465,15 @@ const TDS = [
     phone: "086 2555369"
   },
   {
+    name: "Lola Gonzalez Farrell",
+    imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Lola Gonzalez Farrell.png",
+    partyName: "Social Democrats",
+    constituency: "Carrick-on-Shannon",
+    score: "./assets/images/not_td.jpg",
+    email: "lola.gonzalezfarrell@socialdemocrats.ie",
+    phone: "089 254 9239"
+  },
+  {
     name: "Maeve Reynolds",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Maeve Reynolds.png",
     partyName: "Fine Gael",
@@ -2373,6 +2481,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "maevereynolds@outlook.com",
     phone: "086-1525947"
+  },
+  {
+    name: "Paddy Farrell",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Paddy Farrell.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Carrick-on-Shannon",
+    score: "./assets/images/positive.jpg",
+    email: "paddyfarrell@leitrimcoco.ie",
+    phone: "(087) 1369719"
   },
   {
     name: "Seán McGowan",
@@ -2510,6 +2627,15 @@ const TDS = [
     phone: "086 803 8600"
   },
   {
+    name: "Monica Oikeh",
+    imageUrl: "./assets/images/LE 2024 Images/Green Party/Monica Oikeh.jpg",
+    partyName: "Green Party",
+    constituency: "Carrigaline",
+    score: "./assets/images/not_td.jpg",
+    email: "monica.oikeh@greenparty.ie",
+    phone: ""
+  },
+  {
     name: "Richard Terry",
     imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Richard Terry.png",
     partyName: "Social Democrats",
@@ -2607,6 +2733,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "amcdonnell@cllr.mayococo.ie",
     phone: "086 8109499"
+  },
+  {
+    name: "Blackie Gavin",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Blackie Gavin.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Castlebar",
+    score: "./assets/images/positive.jpg",
+    email: "bgavin@cllr.mayococo.ie",
+    phone: "087 2490933"
   },
   {
     name: "Cyril Burke",
@@ -2708,6 +2843,15 @@ const TDS = [
     phone: "087 2250177"
   },
   {
+    name: "Cait Ní Riordáin",
+    imageUrl: "./assets/images/LE 2024 Images/Aontu/Cait Ni Riordain.jpg",
+    partyName: "Aontú",
+    constituency: "Castleisland",
+    score: "./assets/images/negative.jpg",
+    email: "CaitAontúchiarrai@gmail.com",
+    phone: "085 729 9375"
+  },
+  {
     name: "Fionnán Fitzgerald",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Fionnan Fitzgerald.webp",
     partyName: "Fianna Fáil",
@@ -2787,6 +2931,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "Ted.Leddy@cllrs.fingal.ie",
     phone: "0873276630"
+  },
+  {
+    name: "Aine Smith",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Aine Smith.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Cavan-Belturbet",
+    score: "./assets/images/not_td.jpg",
+    email: "asmith@cavancoco.ie",
+    phone: "0870552064"
   },
   {
     name: "John Paul Feeley",
@@ -2877,6 +3030,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "brendan.wyse@gmail.com",
     phone: "087 2328867"
+  },
+  {
+    name: "Daragh Fitzpatrick",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Daragh Fitzpatrick.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Clane",
+    score: "./assets/images/positive.jpg",
+    email: "daraghfitz2007@gmail.com",
+    phone: "087 2538184"
   },
   {
     name: "Eoin Coates",
@@ -2985,6 +3147,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "eoinob@cllrs.sdublincoco.ie",
     phone: "086 3840040"
+  },
+  {
+    name: "Josh Ellul",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Josh Ellul.png",
+    partyName: "Labour",
+    constituency: "Clondalkin",
+    score: "./assets/images/not_td.jpg",
+    email: "hello@joshellul.ie",
+    phone: "087 942 9767"
   },
   {
     name: "Laura Donaghy",
@@ -3194,6 +3365,15 @@ const TDS = [
     phone: "087-2401553"
   },
   {
+    name: "Rola Abu Zeid-O'Neill",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Rola Abu Zeid-O'Neill.webp",
+    partyName: "People Before Profit",
+    constituency: "Cobh",
+    score: "./assets/images/not_td.jpg",
+    email: "pbpeastcork@gmail.com",
+    phone: ""
+  },
+  {
     name: "Sheila O'Callaghan",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Sheila O'Callaghan.webp",
     partyName: "Fianna Fáil",
@@ -3329,6 +3509,15 @@ const TDS = [
     phone: "087 224 4364"
   },
   {
+    name: "Finian Toomey",
+    imageUrl: "./assets/images/LE 2024 Images/Aontu/Finian Toomey.jpg",
+    partyName: "Aontú",
+    constituency: "Cork City North West",
+    score: "./assets/images/not_td.jpg",
+    email: "finiantoomey@gmail.com",
+    phone: "087 248 0537"
+  },
+  {
     name: "John Sheehan",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/John Sheehan.webp",
     partyName: "Fianna Fáil",
@@ -3336,6 +3525,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "john_sheehan@corkcity.ie",
     phone: "087 228 2963"
+  },
+  {
+    name: "Kenneth Collins",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Kenneth Collins.png",
+    partyName: "Sinn Féin",
+    constituency: "Cork City North West",
+    score: "./assets/images/not_td.jpg",
+    email: "kenneth_collins@corkcity.ie",
+    phone: "087 929 3904"
   },
   {
     name: "Louise Jordan",
@@ -3518,6 +3716,15 @@ const TDS = [
     phone: "021 436 4385"
   },
   {
+    name: "Andrea Christopher Rea",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Andrea Christopher Rea.jpg",
+    partyName: "Fine Gael",
+    constituency: "Cork City South West",
+    score: "./assets/images/not_td.jpg",
+    email: "andreachristopherrea@gmail.com",
+    phone: "087 4754104"
+  },
+  {
     name: "Ciarán McCarthy",
     imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Ciaran McCarthy.png",
     partyName: "Social Democrats",
@@ -3552,6 +3759,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "fergal_dennehy@corkcity.ie",
     phone: "087 299 9337"
+  },
+  {
+    name: "Garret Kelleher",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Garret Kelleher.jpg",
+    partyName: "Fine Gael",
+    constituency: "Cork City South West",
+    score: "./assets/images/positive.jpg",
+    email: "garret_kelleher@corkcity.ie",
+    phone: "087 963 5812"
   },
   {
     name: "Gary O'Brien",
@@ -3626,6 +3842,15 @@ const TDS = [
     phone: "087 6920370"
   },
   {
+    name: "Donnacha Geoghegan",
+    imageUrl: "./assets/images/LE 2024 Images/Green Party/Donnacha Geoghegan.png",
+    partyName: "Green Party",
+    constituency: "Donaghmede",
+    score: "./assets/images/positive.jpg",
+    email: "donnacha.geoghegan@greenparty.ie",
+    phone: "083 3619222"
+  },
+  {
     name: "Paddy Monahan",
     imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Paddy Monahan.png",
     partyName: "Social Democrats",
@@ -3669,6 +3894,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "Terence.Flanagan@dublincity.ie",
     phone: 879952031
+  },
+  {
+    name: "Tom Brabazon",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Tom Brabazon.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Donaghmede",
+    score: "./assets/images/negative.jpg",
+    email: "tom.brabazon@dublincity.ie",
+    phone: "086 8092944"
   },
   {
     name: "Barry Sweeney",
@@ -3860,6 +4094,24 @@ const TDS = [
     phone: ""
   },
   {
+    name: "Eoghan Ó Ceannabháin",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Eoghan O Ceannabhain.webp",
+    partyName: "People Before Profit",
+    constituency: "Dublin North Inner City",
+    score: "./assets/images/not_td.jpg",
+    email: "",
+    phone: ""
+  },
+  {
+    name: "Isabel Oliveria",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Isabel Oliveria.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Dublin North Inner City",
+    score: "./assets/images/positive.jpg",
+    email: "isabel.oliveria000@gmail.com",
+    phone: "083 4602940"
+  },
+  {
     name: "Janet Horner",
     imageUrl: "./assets/images/LE 2024 Images/Green Party/Janet Horner.jpg",
     partyName: "Green Party",
@@ -3885,6 +4137,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "raymcadam@gmail.com",
     phone: 868471720
+  },
+  {
+    name: "Tom O'Connor",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Tom O'Connor.png",
+    partyName: "Labour",
+    constituency: "Dublin North Inner City",
+    score: "./assets/images/positive.jpg",
+    email: "toconnor@fai.ie",
+    phone: ""
   },
   {
     name: "Alan Healy",
@@ -3993,6 +4254,33 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "jen.cummins@socialdemocrats.ie",
     phone: "087 164 4166"
+  },
+  {
+    name: "Kelsey May Daly",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Kelsey May Daly.webp",
+    partyName: "People Before Profit",
+    constituency: "Dublin South West Inner City",
+    score: "./assets/images/positive.jpg",
+    email: "kelseymay.daly@dublincity.ie",
+    phone: ""
+  },
+  {
+    name: "Michael Watters",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Michael Watters.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Dublin South West Inner City",
+    score: "./assets/images/negative.jpg",
+    email: "michael.watters@dublincity.ie",
+    phone: 838651969
+  },
+  {
+    name: "Michael Pidgeon",
+    imageUrl: "./assets/images/LE 2024 Images/Green Party/Michael Pidgeon.png",
+    partyName: "Green Party",
+    constituency: "Dublin South West Inner City",
+    score: "./assets/images/positive.jpg",
+    email: "Michael.Pidgeon@dublincity.ie",
+    phone: 876279290
   },
   {
     name: "Muhammad Ammar Ali",
@@ -4301,6 +4589,15 @@ const TDS = [
     phone: "087 9345603"
   },
   {
+    name: "Criostoir O Faolain",
+    imageUrl: "./assets/images/LE 2024 Images/Green Party/Criostoir O Faolain.jpg",
+    partyName: "Green Party",
+    constituency: "Dungarvan",
+    score: "./assets/images/positive.jpg",
+    email: "Criostoir.Ofaolain@greenparty.ie",
+    phone: ""
+  },
+  {
     name: "Damien Geoghan",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Damien Geoghan.jpg",
     partyName: "Fine Gael",
@@ -4535,6 +4832,15 @@ const TDS = [
     phone: "086-2602383"
   },
   {
+    name: "Joe Killeen",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Joe Killeen.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Ennistymon",
+    score: "./assets/images/positive.jpg",
+    email: "mrjoekilleen@gmail.com",
+    phone: "087 6735114"
+  },
+  {
     name: "Joe Garrihy",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Joe Garrihy.jpg",
     partyName: "Fine Gael",
@@ -4569,6 +4875,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "deirdreobrienccc@gmail.com",
     phone: "087 6823514"
+  },
+  {
+    name: "Diarmuid Hanley",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Diarmuid Hanley.png",
+    partyName: "Labour",
+    constituency: "Fermoy",
+    score: "./assets/images/positive.jpg",
+    email: "diarmuid.hanley81@gmail.com",
+    phone: "083 301 3976"
   },
   {
     name: "Frank O'Flynn",
@@ -4859,6 +5174,15 @@ const TDS = [
     phone: "086 - 8399996"
   },
   {
+    name: "Niall McNelis",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Niall McNelis.png",
+    partyName: "Labour",
+    constituency: "Galway City West",
+    score: "./assets/images/positive.jpg",
+    email: "Niall.McNelis@cgcc.ie",
+    phone: "087 6197300"
+  },
+  {
     name: "Peter Keane",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Peter Keane.webp",
     partyName: "Fianna Fáil",
@@ -4929,6 +5253,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "tmurphy@cllr.dlrcoco.ie",
     phone: "086-7814515"
+  },
+  {
+    name: "John Shéamais Ó Fearraigh",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/John Sheamais O Fearraigh.png",
+    partyName: "Sinn Féin",
+    constituency: "Glenties",
+    score: "./assets/images/negative.jpg",
+    email: "johnofearraigh@donegalcoco.ie",
+    phone: "087 24 41842"
   },
   {
     name: "Joseph Molloy",
@@ -5048,6 +5381,15 @@ const TDS = [
     phone: "087-9763930"
   },
   {
+    name: "P.J. Murphy",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/P.J. Murphy.jpg",
+    partyName: "Fine Gael",
+    constituency: "Gort-Kinvara",
+    score: "./assets/images/positive.jpg",
+    email: "pjmurphy@cllr.galwaycoco.ie",
+    phone: "087 7905401"
+  },
+  {
     name: "Aidan Mullins",
     imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Aidan Mullins.png",
     partyName: "Sinn Féin",
@@ -5082,6 +5424,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "pmcevoy@laoiscouncillors.ie",
     phone: "087 1359 382"
+  },
+  {
+    name: "P.J. Kelly",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/P.J. Kelly.jpg",
+    partyName: "Fine Gael",
+    constituency: "Graiguecullen-Portarlington",
+    score: "./assets/images/negative.jpg",
+    email: "kellypj@eircom.net",
+    phone: "(086) 2500133"
   },
   {
     name: "Vivienne Phelan",
@@ -5127,6 +5478,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "aileen.lennon@gmail.com",
     phone: "087-8370322"
+  },
+  {
+    name: "Anne Waithira Burke",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Anne Waithira Burke.png",
+    partyName: "Labour",
+    constituency: "Greystones",
+    score: "./assets/images/not_td.jpg",
+    email: "waithiraburke@votelabour.ie",
+    phone: "083 829 1099"
   },
   {
     name: "Jack Commons",
@@ -5370,6 +5730,24 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "cleo.murphy@greenparty.ie",
     phone: "087 260 7114"
+  },
+  {
+    name: "Michael Cahill",
+    imageUrl: "#N/A",
+    partyName: "Fianna Fáil",
+    constituency: "Kenmare",
+    score: "./assets/images/negative.jpg",
+    email: "cllrmichael.cahill@kerrycoco.ie",
+    phone: "086 2670768"
+  },
+  {
+    name: "Norma Moriarty",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Norma Moriarty.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Kenmare",
+    score: "./assets/images/positive.jpg",
+    email: "moriartynorma@gmail.com",
+    phone: "086 8581841"
   },
   {
     name: "Teddy O'Sullivan Casey",
@@ -5667,6 +6045,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "fmcnamara@cllr.dlrcoco.ie",
     phone: "087 104 3210"
+  },
+  {
+    name: "Jacqueline Burke",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Jacqueline Burke.jpg",
+    partyName: "Fine Gael",
+    constituency: "Killiney-Shankill",
+    score: "./assets/images/negative.jpg",
+    email: "Jacqueline.burkefg@gmail.com",
+    phone: "087-4908555"
   },
   {
     name: "James Kearney",
@@ -6074,6 +6461,15 @@ const TDS = [
     phone: "086 6062207"
   },
   {
+    name: "Nuala Killeen",
+    imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Nuala Killeen.png",
+    partyName: "Social Democrats",
+    constituency: "Leixlip",
+    score: "./assets/images/positive.jpg",
+    email: "nuala.killeen@socialdemocrats.ie",
+    phone: "087 7160630"
+  },
+  {
     name: "Ciaran Brogan",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Ciaran Brogan.webp",
     partyName: "Fianna Fáil",
@@ -6090,6 +6486,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "donalcoyle@donegalcoco.ie",
     phone: "086 10 71220"
+  },
+  {
+    name: "Gerry McMonagle",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Gerry McMonagle.png",
+    partyName: "Sinn Féin",
+    constituency: "Letterkenny",
+    score: "./assets/images/positive.jpg",
+    email: "gerrymcmonagle@donegalcoco.ie",
+    phone: "086 06 37990"
   },
   {
     name: "Jimmy Kavanagh",
@@ -6110,12 +6515,30 @@ const TDS = [
     phone: "087 670 7002"
   },
   {
+    name: "Michael McLaughlin",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Michael McLaughlin.png",
+    partyName: "Labour",
+    constituency: "Letterkenny",
+    score: "./assets/images/negative.jpg",
+    email: "michael.mclaughlin@votelabour.ie",
+    phone: "083 018 2516"
+  },
+  {
     name: "Nuala Carr",
     imageUrl: "./assets/images/LE 2024 Images/Green Party/Nuala Carr.jpg",
     partyName: "Green Party",
     constituency: "Letterkenny",
     score: "./assets/images/positive.jpg",
     email: "nuala.carr@greenparty.ie",
+    phone: ""
+  },
+  {
+    name: "Tomas Sean Devine",
+    imageUrl: "./assets/images/LE 2024 Images/100% Redress Party/Tomas Sean Devine.jpg",
+    partyName: "100% Redress Party",
+    constituency: "Letterkenny",
+    score: "./assets/images/negative.jpg",
+    email: "enquiries@100percentredressparty.ie",
     phone: ""
   },
   {
@@ -6317,6 +6740,15 @@ const TDS = [
     phone: ""
   },
   {
+    name: "Sasa Novak Uí Chonchúair",
+    imageUrl: "./assets/images/LE 2024 Images/Green Party/Sasa Novak Ui Chonchuair.png",
+    partyName: "Green Party",
+    constituency: "Limerick City North",
+    score: "./assets/images/negative.jpg",
+    email: "sasa.novak@limerick.ie",
+    phone: "085 1793117"
+  },
+  {
     name: "Shane Hickey O'Mara",
     imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Shane Hickey O'Mara.png",
     partyName: "Social Democrats",
@@ -6342,6 +6774,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "tom.collopy@limerick.ie",
     phone: "086 8105824"
+  },
+  {
+    name: "Dan McSweeney",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Dan McSweeney.jpg",
+    partyName: "Fine Gael",
+    constituency: "Limerick City West",
+    score: "./assets/images/not_td.jpg",
+    email: "dan.mcsweeney@limerick.ie",
+    phone: "087 9298778"
   },
   {
     name: "Daniel Butler",
@@ -6459,6 +6900,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "michaelekleane67@gmail.com",
     phone: 872394462
+  },
+  {
+    name: "Michael Foley",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Michael Foley.jpg",
+    partyName: "Fine Gael",
+    constituency: "Listowel",
+    score: "./assets/images/not_td.jpg",
+    email: "michaelmfoley@eircom.net",
+    phone: "087 9687078"
   },
   {
     name: "Mike Kennelly",
@@ -6632,6 +7082,15 @@ const TDS = [
     phone: "087 068 8324"
   },
   {
+    name: "Vicki Casserly",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Vicki Casserly.jpg",
+    partyName: "Fine Gael",
+    constituency: "Lucan",
+    score: "./assets/images/negative.jpg",
+    email: "vcasserly@cllrs.sdublincoco.ie",
+    phone: ""
+  },
+  {
     name: "Eileen Lynch",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Eileen Lynch.jpg",
     partyName: "Fine Gael",
@@ -6675,6 +7134,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "michaelacreed@eircom.net",
     phone: "086 8052792"
+  },
+  {
+    name: "Rosarie O'Leary",
+    imageUrl: "./assets/images/LE 2024 Images/Aontu/Rosarie O'Leary.jpg",
+    partyName: "Aontú",
+    constituency: "Macroom",
+    score: "./assets/images/not_td.jpg",
+    email: "rose_leary@hotmail.com",
+    phone: "086 815 4288"
   },
   {
     name: "Ted Lucey",
@@ -6821,6 +7289,15 @@ const TDS = [
     phone: "087 2381962"
   },
   {
+    name: "Naoise O Cearúil",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Naoise O Cearuil.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Maynooth",
+    score: "./assets/images/not_td.jpg",
+    email: "cllrnaoise@gmail.com",
+    phone: "086 7280050"
+  },
+  {
     name: "Paul Ward",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Paul Ward.webp",
     partyName: "Fianna Fáil",
@@ -6945,6 +7422,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "aaron@sweeneyformilford.ie",
     phone: "085-1768787"
+  },
+  {
+    name: "Eamonn Jackson",
+    imageUrl: "./assets/images/LE 2024 Images/100% Redress Party/Eamonn Jackson.jpg",
+    partyName: "100% Redress Party",
+    constituency: "Milford",
+    score: "./assets/images/negative.jpg",
+    email: "eamonnjackson.100rp@gmail.com",
+    phone: ""
   },
   {
     name: "Liam Blaney",
@@ -7091,6 +7577,15 @@ const TDS = [
     phone: "087 9377386"
   },
   {
+    name: "William Quinn",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/William Quinn.jpg",
+    partyName: "Labour",
+    constituency: "Muinebeag",
+    score: "./assets/images/negative.jpg",
+    email: "wquinn@carlow.ie",
+    phone: "086 1659115"
+  },
+  {
     name: "Ali Morris",
     imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Ali Morris.png",
     partyName: "Social Democrats",
@@ -7233,6 +7728,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "fintanpbrett@gmail.com",
     phone: "087 6257842"
+  },
+  {
+    name: "Eddie Fennessy",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Eddie Fennessy.png",
+    partyName: "Sinn Féin",
+    constituency: "Navan",
+    score: "./assets/images/negative.jpg",
+    email: "cllreddiefennessy@gmail.com",
+    phone: "087 7457269"
   },
   {
     name: "Emer Toibin",
@@ -7395,6 +7899,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "michael.whelan@wexfordmcc.ie",
     phone: "087 2388156"
+  },
+  {
+    name: "Noel Heavey",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Noel Heavey.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Newbridge",
+    score: "./assets/images/negative.jpg",
+    email: "noelheavey1@gmail.com",
+    phone: "087 2602640"
   },
   {
     name: "Peggy O'Dwyer",
@@ -7676,6 +8189,24 @@ const TDS = [
     phone: ""
   },
   {
+    name: "Derren O Bradaigh",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Derren O Bradaigh.jpg",
+    partyName: "Sinn Féin",
+    constituency: "Palmerstown-Fonthill",
+    score: "./assets/images/not_td.jpg",
+    email: "DOBradaigh@cllrs.sdublincoco.ie",
+    phone: "087 2136345"
+  },
+  {
+    name: "Madeleine Johansson",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Madeleine Johansson.webp",
+    partyName: "People Before Profit",
+    constituency: "Palmerstown-Fonthill",
+    score: "./assets/images/positive.jpg",
+    email: "mjohansson@cllrs.sdublincoco.ie",
+    phone: "0873630242"
+  },
+  {
     name: "Shane Moynihan",
     imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Shane Moynihan.webp",
     partyName: "Fianna Fáil",
@@ -7728,6 +8259,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "James.Geoghegan@dublincity.ie",
     phone: 896166956
+  },
+  {
+    name: "Karen Hinkson Deeney",
+    imageUrl: "./assets/images/LE 2024 Images/Social Democrats/Karen Hinkson Deeney.png",
+    partyName: "Social Democrats",
+    constituency: "Pembroke",
+    score: "./assets/images/positive.jpg",
+    email: "karen.hinkson.deeney@socialdemocrats.ie",
+    phone: ""
   },
   {
     name: "Mary Martin",
@@ -7827,6 +8367,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "bawalsh@laoiscouncillors.ie",
     phone: "087-6602658"
+  },
+  {
+    name: "Caroline Dwane Stanley",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Caroline Dwane Stanley.png",
+    partyName: "Sinn Féin",
+    constituency: "Portlaoise",
+    score: "./assets/images/not_td.jpg",
+    email: "cdwane@laoiscouncillors.ie",
+    phone: "(057) 86 62851"
   },
   {
     name: "Catherine Fitzgerald",
@@ -7944,6 +8493,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "ciaran.ahern@votelabour.ie",
     phone: "087 967 1854"
+  },
+  {
+    name: "Conor Kelly",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Conor Kelly.webp",
+    partyName: "People Before Profit",
+    constituency: "Rathfarnham Templeogue",
+    score: "./assets/images/negative.jpg",
+    email: "conorkellypbp@gmail.com",
+    phone: ""
   },
   {
     name: "David McManus",
@@ -8252,6 +8810,15 @@ const TDS = [
     phone: "0863787395"
   },
   {
+    name: "Robert O'Donoghue",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Robert O'Donoghue.png",
+    partyName: "Labour",
+    constituency: "Rush-Lusk",
+    score: "./assets/images/negative.jpg",
+    email: "Robert.odonoghue@cllrs.fingal.ie",
+    phone: "083-3227472"
+  },
+  {
     name: "Suzanne Young",
     imageUrl: "./assets/images/LE 2024 Images/Green Party/Suzanne Young.jpg",
     partyName: "Green Party",
@@ -8475,6 +9042,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "nealonlovessligo@gmail.com",
     phone: "086-1060188"
+  },
+  {
+    name: "Gino O'Boyle",
+    imageUrl: "./assets/images/LE 2024 Images/People Before Profit/Gino O'Boyle.webp",
+    partyName: "People Before Profit",
+    constituency: "Sligo-Strandhill",
+    score: "./assets/images/positive.jpg",
+    email: "ginopbp@outlook.com",
+    phone: "086 0757915"
   },
   {
     name: "Johnny Gogan",
@@ -8918,6 +9494,15 @@ const TDS = [
     phone: "086 2336906"
   },
   {
+    name: "Mairead McKnight",
+    imageUrl: "./assets/images/LE 2024 Images/Labour/Mairead McKnight.png",
+    partyName: "Labour",
+    constituency: "Tramore-Waterford City West",
+    score: "./assets/images/not_td.jpg",
+    email: "MaireadMcKnight364@gmail.com",
+    phone: "+353 89 416 9221"
+  },
+  {
     name: "Richie Hayes",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Richie Hayes.jpg",
     partyName: "Fine Gael",
@@ -8952,6 +9537,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "joe.fox@members.meathcoco.ie",
     phone: "087 2631318"
+  },
+  {
+    name: "Luba Healy",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Luba Healy.jpg",
+    partyName: "Fine Gael",
+    constituency: "Trim",
+    score: "./assets/images/not_td.jpg",
+    email: "lubahealyfg@gmail.com",
+    phone: "083-4431086"
   },
   {
     name: "Niamh Souhan",
@@ -8990,6 +9584,15 @@ const TDS = [
     phone: "89 969 5496"
   },
   {
+    name: "Donagh Killilea",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Donagh Killilea.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Tuam",
+    score: "./assets/images/negative.jpg",
+    email: "dkillilea@cllr.galwaycoco.ie",
+    phone: "086 6079563"
+  },
+  {
     name: "Islammiyah Kadejo",
     imageUrl: "./assets/images/LE 2024 Images/Green Party/Islammiyah Kadejo.jpg",
     partyName: "Green Party",
@@ -9015,6 +9618,15 @@ const TDS = [
     score: "./assets/images/positive.jpg",
     email: "luke.silke@oireachtas.ie",
     phone: "085 223 9620"
+  },
+  {
+    name: "Mary Hoade",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Mary Hoade.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Tuam",
+    score: "./assets/images/not_td.jpg",
+    email: "mhoade@cllr.galwaycoco.ie",
+    phone: "087 2255979"
   },
   {
     name: "Ollie Turner",
@@ -9152,6 +9764,15 @@ const TDS = [
     phone: "085 1801243"
   },
   {
+    name: "Jim Darcy",
+    imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Jim Darcy.jpg",
+    partyName: "Fine Gael",
+    constituency: "Waterford City East",
+    score: "./assets/images/positive.jpg",
+    email: "jimdarcyfinegael@gmail.com",
+    phone: "087-9394847"
+  },
+  {
     name: "Jody Power",
     imageUrl: "./assets/images/LE 2024 Images/Green Party/Jody Power.png",
     partyName: "Green Party",
@@ -9177,6 +9798,15 @@ const TDS = [
     score: "./assets/images/not_td.jpg",
     email: "cllrpfitzgerald@waterfordcouncil.ie",
     phone: "087 7450994"
+  },
+  {
+    name: "Stephanie Keating",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Stephanie Keating.jpg",
+    partyName: "Fianna Fáil",
+    constituency: "Waterford City East",
+    score: "./assets/images/negative.jpg",
+    email: "cllrskeating@waterfordcouncil.ie",
+    phone: "087 1990755"
   },
   {
     name: "Breda Brennan",
@@ -9260,6 +9890,15 @@ const TDS = [
     phone: "085 1782726"
   },
   {
+    name: "Brendan Mulroy",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Brendan Mulroy.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Westport",
+    score: "./assets/images/positive.jpg",
+    email: "bmulroy65@gmail.com",
+    phone: "087  9820542"
+  },
+  {
     name: "Keira Keogh",
     imageUrl: "./assets/images/LE 2024 Images/Fine Gael/Keira Keogh.jpg",
     partyName: "Fine Gael",
@@ -9296,6 +9935,15 @@ const TDS = [
     phone: "086 608 6560"
   },
   {
+    name: "Garry Laffan",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Garry Laffan.webp",
+    partyName: "Fianna Fáil",
+    constituency: "Wexford",
+    score: "./assets/images/negative.jpg",
+    email: "garry.laffan@wexfordmcc.ie",
+    phone: "087 7878417"
+  },
+  {
     name: "George Lawlor",
     imageUrl: "./assets/images/LE 2024 Images/Labour/George Lawlor.png",
     partyName: "Labour",
@@ -9312,6 +9960,15 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "staples.robbiefg@gmail.com",
     phone: "085-1955292"
+  },
+  {
+    name: "Tom Forde",
+    imageUrl: "./assets/images/LE 2024 Images/Sinn Fein/Tom Forde.png",
+    partyName: "Sinn Féin",
+    constituency: "Wexford",
+    score: "./assets/images/positive.jpg",
+    email: "tom.forde@wexfordmcc.ie",
+    phone: "085-8421627"
   },
   {
     name: "Vicky Clancy Barron",
@@ -9366,5 +10023,14 @@ const TDS = [
     score: "./assets/images/negative.jpg",
     email: "shanelangrellwicklow@gmail.com",
     phone: "087-4171521"
+  },
+  {
+    name: "Sonia Casey Shortt",
+    imageUrl: "./assets/images/LE 2024 Images/Fianna Fail/Sonia Casey Shortt.jpg",
+    partyName: "Fianna Fáil",
+    constituency: "Wicklow",
+    score: "./assets/images/negative.jpg",
+    email: "soniacaseyshortt@gmail.com",
+    phone: "086 1618313"
   }
 ]
