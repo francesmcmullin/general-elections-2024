@@ -25,7 +25,10 @@ export class TdThumbnailComponent implements OnInit {
               private scroll: ViewportScroller) { }
   
   ngOnInit() {
-    this.tds = this.tdService.getTds()
+    this.tdService.candidates$.subscribe(
+      res => this.tds = res,
+      err => { }
+    );
   }
   
 compareVal(event) {

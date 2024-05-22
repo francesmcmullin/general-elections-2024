@@ -22,7 +22,10 @@ export class ComparisonpageComponent implements OnInit {
               private _interactionService: InteractionService) { }
 
   ngOnInit() {
-    this.tds = this.tdService.getTds()
+    this.tdService.candidates$.subscribe(
+      res => this.tds = res,
+      err => { }
+    );
     this._interactionService.thumbnailMessage$
       .subscribe(
         message => {

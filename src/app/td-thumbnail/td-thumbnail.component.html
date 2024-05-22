@@ -1,12 +1,12 @@
 <div class="well hoverwell thumbnail">
   <!-- <div class="clickable" (click)="scrollToTop()" [routerLink] = "['/tds', td.name]"> -->
   <div>  
-    <img [src]="td?.imageUrl" [alt]="td?.name" class="td-image">
+    <img [src]="td?.photo_url" [alt]="td?.name" class="td-image">
     
     <h2 class="banner">{{td?.name}}</h2>
-    <div>{{td?.constituency}}</div>
-    <div>{{td?.partyName}}</div>
-    <div>Party Score: {{td?.partyScore}}</div>
+    <div>{{td?.area}}</div>
+    <div>{{td?.party_name}}</div>
+    <!-- <div>Party Score: {{td?.partyScore}}</div> -->
     
     <h2>Score:</h2><img [src]="td?.score" class="vote-image">
              
