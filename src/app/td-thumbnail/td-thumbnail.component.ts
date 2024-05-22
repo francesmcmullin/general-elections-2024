@@ -14,6 +14,8 @@ export class TdThumbnailComponent implements OnInit {
 
   @Input() td:any
 
+  photoUrl:string
+
   @Input() checkbox:boolean
 
   tds: any[]
@@ -26,7 +28,12 @@ export class TdThumbnailComponent implements OnInit {
   
   ngOnInit() {
     this.tdService.candidates$.subscribe(
-      res => this.tds = res,
+      res => {
+        this.tds = res
+        if(!!this.td.photo_url) {
+          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.id/${this.td.photo_url}`
+        }
+      },
       err => { }
     );
   }

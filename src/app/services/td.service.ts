@@ -8,7 +8,6 @@ export class TdService {
   public candidates$ = this.candidatesSource.asObservable();
 
   constructor(private http: HttpClient) {
-    console.log("HIUH?!")
     this.getCandidates();         // <-- call API once
   }
 
