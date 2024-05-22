@@ -15,6 +15,7 @@ export class TdThumbnailComponent implements OnInit {
   @Input() td:any
 
   photoUrl:string
+  scoreImage:string
 
   @Input() checkbox:boolean
 
@@ -33,6 +34,7 @@ export class TdThumbnailComponent implements OnInit {
         if(!!this.td.photo_url) {
           this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.id/${this.td.photo_url}`
         }
+        this.scoreImage = this.td.pledge_status === "pledged" ? './assets/images/positive.jpg' : './assets/images/negative.jpg'
       },
       err => { }
     );
