@@ -74,13 +74,16 @@ app-score-key img{
   transform: scale(2.5);
   position: absolute;
   right: 40px;
+  margin-top: 15px;
 }
 
 label{
   font-size: 16px;
   text-align: center;
   line-height: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
+  margin: 2px;
+  border-radius: 5px;  
   
 }
 
