@@ -32,7 +32,7 @@ export class TdThumbnailComponent implements OnInit {
       res => {
         this.tds = res
         if(!!this.td.photo_url) {
-          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.id/${this.td.photo_url}`
+          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.ie/${this.td.photo_url}`
         }
         this.scoreImage = this.td.pledge_status === "pledged" ? './assets/images/positive.jpg' : './assets/images/negative.jpg'
       },
