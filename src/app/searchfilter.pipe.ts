@@ -12,9 +12,9 @@ export class SearchfilterPipe implements PipeTransform {
     }
     return tds.filter(td =>
       td.name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      td.party_name.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      td.area.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()) ||
-      td.pledge_status.toLocaleLowerCase().includes(searchValue.toLocaleLowerCase()));
+      td.party_name?.toLocaleLowerCase()?.includes(searchValue.toLocaleLowerCase()) ||
+      td.area?.toLocaleLowerCase()?.includes(searchValue.toLocaleLowerCase()) ||
+      td.pledge_status?.toLocaleLowerCase()?.includes(searchValue.toLocaleLowerCase()));
 
   }
 
