@@ -17,8 +17,10 @@ export class ScorecardComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.td = this.tdService.getTd(this.route.snapshot.params['name'])
-    
+    this.tdService.candidates$.subscribe(
+      res => this.td = res.find(c => c.name === this.route.snapshot.params['name']),
+      err => { }
+    );
   }
 
 }

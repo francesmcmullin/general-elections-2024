@@ -15,6 +15,7 @@ export class TdDetailsComponent implements OnInit {
   totalResult:number
 
   mainResult:number
+  photoUrl:string
 
   // className:any
 
@@ -23,7 +24,15 @@ export class TdDetailsComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.td = this.tdService.getTd(this.route.snapshot.params['name'])
+    this.tdService.candidates$.subscribe(
+      res => {
+        this.td = res.find(c => c.name === this.route.snapshot.params['name'])
+        if(!!this.td.photo_url) {
+          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.id/${this.td.photo_url}`
+        }
+      },
+      err => { }
+    );
     
     this.mainResult = this.td.tally.positiveVotes + this.td.tally.negativeVotes
 

@@ -28,14 +28,19 @@ export class TdsListComponent implements OnInit {
 
 
   ngOnInit() {
-    this.tds = this.tdService.getTds()
+    this.tdService.candidates$.subscribe(
+      res => {
+        this.tds = res
+        this.compareTds = this.tds.filter(td => td.comparison == true);
+      },
+      err => { }
+    );
     this._interactionService.thumbnailMessage$
       .subscribe(
         message => {
           this.compareTds = this.tds.filter(td => td.comparison == true);
         }
       )
-    this.compareTds = this.tds.filter(td => td.comparison == true);
   }
 
   scrollToTop(){
