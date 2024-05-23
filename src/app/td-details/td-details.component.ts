@@ -28,7 +28,7 @@ export class TdDetailsComponent implements OnInit {
       res => {
         this.td = res.find(c => c.name === this.route.snapshot.params['name'])
         if(!!this.td.photo_url) {
-          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.ie/${this.td.photo_url}`
+          this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.ie${this.td.photo_url}`
         }
       },
       err => { }
