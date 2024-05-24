@@ -34,6 +34,7 @@ export class TdThumbnailComponent implements OnInit {
         if(!!this.td.photo_url) {
           this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.ie${this.td.photo_url}`
         }
+        this.photoUrl = this.photoUrl || './assets/images/LE 2024 Images/Blank image.png'
         this.scoreImage = this.td.pledge_status === "pledged" ? './assets/images/positive.jpg' : './assets/images/negative.jpg'
       },
       err => { }

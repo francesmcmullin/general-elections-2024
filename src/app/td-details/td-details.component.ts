@@ -30,6 +30,7 @@ export class TdDetailsComponent implements OnInit {
         if(!!this.td.photo_url) {
           this.photoUrl = this.td.photo_url.startsWith('https') ? this.td.photo_url : `https://action.uplift.ie${this.td.photo_url}`
         }
+        this.photoUrl = this.photoUrl || './assets/images/LE 2024 Images/Blank image.png'
       },
       err => { }
     );
