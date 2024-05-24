@@ -69,3 +69,7 @@ hr {
         padding-right: 8px;      
     }
   }
+
+  p {
+    color: black;
+  }
