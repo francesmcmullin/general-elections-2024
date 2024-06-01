@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-party-page',
+  selector: 'pledge-text',
   templateUrl: './party-page.component.html',
   styleUrls: ['./party-page.component.css']
 })

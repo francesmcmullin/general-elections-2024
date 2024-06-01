@@ -8,7 +8,7 @@ import { TdsListComponent as TdsListComponent } from './tds-list/tds-list.compon
 const routes: Routes = [
   { path: 'All-Candidates', component: TdsListComponent },
   { path: 'tds/:name', component: TdDetailsComponent },
-  { path: 'app-party-page', component: PartyPageComponent },
+  { path: 'pledge-text', component: PartyPageComponent },
   { path: 'app-comparisonpage', component: ComparisonpageComponent },
   { path: '', redirectTo: '/All-Candidates', pathMatch:'full'}
 ]

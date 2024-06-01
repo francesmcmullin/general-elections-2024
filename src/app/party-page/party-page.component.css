@@ -23,3 +23,19 @@ img{
     padding-left: 10%;
 }  
 }
+
+div{
+  color: black;
+  margin: 10px;
+}
+
+button {
+  padding: 12px;
+  /* box-shadow: 1em; */
+  border-radius: 8px;
+  color: white;
+  background-color: #F2293B;
+  display:block;
+  margin: 0 auto;
+  font-size: large;
+}
