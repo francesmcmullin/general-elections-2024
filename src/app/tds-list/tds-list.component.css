@@ -1,5 +1,5 @@
 input {
-    width: 30%;
+    width: 75%;
     margin-bottom: 8px;
 }
 
@@ -12,19 +12,10 @@ span{
     font-size: 20px;
 }
 
-@media screen and (min-width: 639px) {
-   
-  ng-select{
-    width: 30%;
-    margin-bottom: 7px;
-  }
-
-  input {
-    width: 30%;
-    margin-bottom: 8px;
-  }
-}    
-
+ng-select{
+  width: 75%;
+  margin-bottom: 7px;
+}
 
 .title-text {
     font-size: 70px;
@@ -92,6 +83,18 @@ hr {
       left: 35%;
     }
   }    
+
+  @media only screen and (min-width: 600px) {
+    ng-select{
+      width: 30%;
+      margin-bottom: 7px;
+    }
+  
+    input {
+      width: 30%;
+      margin-bottom: 8px;
+    }
+  }
   
   @media screen and (max-width: 329px) {
       
