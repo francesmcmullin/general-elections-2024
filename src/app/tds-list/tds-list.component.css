@@ -1,14 +1,28 @@
 input {
-    width: 35rem;
+    width: 30%;
     margin-bottom: 8px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
 }
 
 span{
     font-size: 20px;
 }
 
+ng-select{
+  width: 30%;
+  margin-bottom: 7px;
+}
+
 .title-text {
     font-size: 70px;
+}
+
+#contact{
+  margin-top: 7px;
 }
 
 app-score-key {

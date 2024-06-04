@@ -1,4 +1,4 @@
-<ng-template [ngIf]="!tds">
+<ng-template [ngIf]="!tds" style="color: black;">
   Loading candidates...
 </ng-template>
 <ng-template [ngIf]="!!tds">
@@ -8,18 +8,18 @@
     <hr /> -->
     <h1>Empty Homes Pledge</h1>
     <hr>
-    <span>Search your Constituency/Candidate </span>
-    <input type="text" [(ngModel)]="searchValue" placeholder="Type  a  Constituency,  Name  or  Party"> <!--added ngModel-->
-
-
+    
+    <span>Search your Constituency</span>
     <ng-select class="custom" [items]="areas"
       [(ngModel)]="searchValue"
       [ngModelOptions]="{standalone: true}"
->
+      placeholder="Type your Constituency">
     </ng-select>
-
     
-    <p>If you're a candidate and want to get in touch email homespledge@uplift.ie or sign the pledge <u><a [routerLink] = "['/pledge-text']">here</a></u>.</p>
+    <span>Search your Candidate by name/party</span><br>
+    <input type="text" [(ngModel)]="searchValue" placeholder="Type a Name or Party"> <!--added ngModel-->
+            
+    <p id="contact">If you're a candidate and want to get in touch, email homespledge@uplift.ie or sign the pledge <u><a [routerLink] = "['/pledge-text']">here</a></u>.</p>
     
 
     <div class="accordion" id="accordionExample">
