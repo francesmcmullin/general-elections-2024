@@ -49,6 +49,16 @@ hr {
     text-decoration: solid;
 }
 
+.ng-select.custom {
+    border:0px;
+    min-height: 0px;
+    border-radius: 0;
+}
+.ng-select.custom .ng-select-container  {
+    min-height: 0px;
+    border-radius: 0;
+}
+
 .goCompare:hover {
     background-color: rgba(98, 104, 201);
   }

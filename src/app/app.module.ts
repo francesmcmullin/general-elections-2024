@@ -16,6 +16,7 @@ import { PartyPageComponent } from './party-page/party-page.component';
 import { SearchfilterPipe } from './searchfilter.pipe';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ComparisonpageComponent } from './comparisonpage/comparisonpage.component';
+import { NgSelectModule } from '@ng-select/ng-select';
 
 
 
@@ -31,14 +32,14 @@ import { ComparisonpageComponent } from './comparisonpage/comparisonpage.compone
     PartyPageComponent,
     SearchfilterPipe,
     ComparisonpageComponent
-   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgSelectModule
   ],
   providers: [TdService],
   bootstrap: [AppComponent]

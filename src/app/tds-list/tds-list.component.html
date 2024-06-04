@@ -10,6 +10,14 @@
     <hr>
     <span>Search your Constituency/Candidate </span>
     <input type="text" [(ngModel)]="searchValue" placeholder="Type  a  Constituency,  Name  or  Party"> <!--added ngModel-->
+
+
+    <ng-select class="custom" [items]="areas"
+      [(ngModel)]="searchValue"
+      [ngModelOptions]="{standalone: true}"
+>
+    </ng-select>
+
     
     <p>If you're a candidate and want to get in touch email homespledge@uplift.ie or sign the pledge <u><a [routerLink] = "['/pledge-text']">here</a></u>.</p>
     
