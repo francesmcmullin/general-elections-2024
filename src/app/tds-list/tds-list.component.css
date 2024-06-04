@@ -12,10 +12,19 @@ span{
     font-size: 20px;
 }
 
-ng-select{
-  width: 30%;
-  margin-bottom: 7px;
-}
+@media screen and (min-width: 639px) {
+   
+  ng-select{
+    width: 30%;
+    margin-bottom: 7px;
+  }
+
+  input {
+    width: 30%;
+    margin-bottom: 8px;
+  }
+}    
+
 
 .title-text {
     font-size: 70px;
