@@ -21,10 +21,6 @@ ng-select{
     font-size: 70px;
 }
 
-#contact{
-  margin-top: 7px;
-}
-
 app-score-key {
     padding-top: 4px;
     padding-bottom: 4px;
@@ -108,4 +104,16 @@ hr {
 
   p {
     color: black;
+  }
+
+  .btn-group button {
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    margin-right: 5px;
+    border-radius: 5%;
+    margin-bottom: 0;
+  }
+
+  .btn-group {
+    margin-top: 7px;
   }
