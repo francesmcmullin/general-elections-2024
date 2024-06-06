@@ -105,7 +105,7 @@ export class TdsListComponent implements OnInit {
     'Edenderry',
     'Ennis',
     'Enniscorthy',
-    'Ennistymon',
+    'Ennistimon',
     'Fermoy',
     'Firhouse - Bohernabreena',
     'Galway City Central',
