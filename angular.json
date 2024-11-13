@@ -110,7 +110,11 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "dir": "dist/Events",
+            "cname": "gaffs-pledge-ge-2024.uplift.ie"
+          }
         }
       }
     }
