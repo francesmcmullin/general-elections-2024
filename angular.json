@@ -113,7 +113,7 @@
           "builder": "angular-cli-ghpages:deploy",
           "options": {
             "dir": "dist/Events",
-            "cname": "gaffs-pledge-ge-2024.uplift.ie"
+            "cname": "empty-homes-ge2024.uplift.ie"
           }
         }
       }
