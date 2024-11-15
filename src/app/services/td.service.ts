@@ -12,7 +12,7 @@ export class TdService {
   }
 
   getCandidates() {
-    this.http.get('https://action.uplift.ie/decisions/gaffs-for-all-pledge-ge-2024/show_pledges').subscribe(
+    this.http.get('https://action.uplift.ie/decisions/empty-homes-ge-2024/show_pledges').subscribe(
       res => this.candidatesSource.next(res),
       err => this.candidatesSource.error(err)
     );
